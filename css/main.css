@@ -1,0 +1,21 @@
+body {
+  font-family: 'Roboto', sans-serif; }
+
+#backgroundimage {
+  background-color: #F7D806;
+  height: 100vh; }
+
+#textbottom {
+  text-align: center;
+  margin-top: 35vh; }
+
+#textbottom img {
+  max-height: 150px;
+  margin-bottom: 30px; }
+
+#textbottom p {
+  font-weight: 200;
+  font-size: 1.2em;
+  color: #272727; }
+
+/*# sourceMappingURL=main.css.map */
