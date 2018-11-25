@@ -1,8 +1,125 @@
 body {
   font-family: 'Roboto', sans-serif; }
 
-.title-bar .menu-icon {
-  margin-left: 20.55rem;
-  margin-right: 0.25rem; }
+h1 {
+  margin: 0;
+  padding: 0; }
+
+p {
+  margin: 0;
+  padding: 0; }
+
+#phonemenubar {
+  background-color: #F7D806;
+  overflow: hidden; }
+
+#mobilelogo {
+  max-width: 35px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  float: left;
+  margin-left: 20px; }
+
+#mainnavlogo {
+  max-width: 35px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  float: left;
+  margin-left: 20px; }
+
+#hamburgermenu {
+  width: 35px;
+  margin-top: 20px;
+  margin-right: 20px; }
+
+.menu-icon::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 6px;
+  background: #272727;
+  -webkit-box-shadow: 0 7px 0 #272727, 0 14px 0 #272727;
+  box-shadow: 0 10px 0 #272727, 0 20px 0 #272727; }
+
+.menu-icon:hover::after {
+  background: #272727;
+  -webkit-box-shadow: 0 7px 0 #272727, 0 14px 0 #272727;
+  box-shadow: 0 10px 0 #272727, 0 20px 0 #272727; }
+
+#nav-menu {
+  background-color: #F7D806; }
+
+#navitems {
+  background-color: #F7D806;
+  float: right; }
+
+.menu a {
+  padding-left: 0.8rem;
+  padding-right: 0.8rem; }
+
+#navitems li a {
+  color: #272727;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 0.9em; }
+
+#slantedintro {
+  background-color: #F7D806;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%); }
+
+#intropromodiv {
+  margin-bottom: 60px; }
+
+#whiteborder {
+  border-style: solid;
+  border-color: white;
+  border-width: 6px;
+  overflow: hidden;
+  margin-top: 60px;
+  position: relative; }
+
+#introtext {
+  float: left;
+  color: white;
+  margin-left: 10px;
+  margin-top: 20px; }
+
+#introphoto {
+  max-width: 50%;
+  bottom: 0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  opacity: 0.2; }
+
+#introtext h1 {
+  font-weight: bold;
+  line-height: 1;
+  font-size: 2.1em;
+  margin-bottom: 0; }
+
+#introtext p {
+  font-family: "Roboto", sans-serif;
+  margin-top: 10px;
+  font-size: 0.6em;
+  margin-bottom: 20px; }
+
+#introphoto {
+  float: right; }
+
+#imagecover {
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 80px; }
+
+#coverprofile {
+  max-width: 47%;
+  position: absolute;
+  bottom: 6px;
+  right: 8px;
+  z-index: 45; }
 
 /*# sourceMappingURL=main.css.map */

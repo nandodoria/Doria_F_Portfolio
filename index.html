@@ -12,23 +12,58 @@
   </head>
   <body>
     <div class="grid-container full" >
-      
-          <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
-              <button id="hamburgermenu" class="menu-icon" type="button" data-toggle="example-menu"></button>
-            </div>
+          
+          <!-- mobile and desktop navigation begins-->
+          <div id="phonemenubar" class="title-bar-right" data-responsive-toggle="nav-menu" data-hide-for="medium">
+              <img src="images/nandologo.svg" alt="menu navigation logo" id="mobilelogo">
+              <button id="hamburgermenu" class="menu-icon" type="button" data-toggle="nav-menu"></button>
+          </div>
+          
             
-            <div class="top-bar" id="example-menu">
-              <div class="top-bar-left">
-                <ul class="menu vertical" data-dropdown-menu>
-                  <li><a href="#">One</a></li>
-                  <li><a href="#">Two</a></li>
-                  <li><a href="#">Three</a></li>
+          <div class="top-bar" id="nav-menu">
+              <img src="images/nandologo.svg" alt="menu navigation logo" class="hide-for-small-only" id="mainnavlogo">
+              <div class="top-bar-right">
+                <ul class="menu horizontal" id="navitems" data-dropdown-menu>
+                  <li><a href="#">HOME</a></li>
+                  <li><a href="#">ABOUT</a></li>
+                  <li><a href="#">WORK</a></li>
+                  <li><a href="#">CONTACT</a></li>
                 </ul>
               </div>
+          </div>
+          <!-- mobile and desktop navigation ends-->
+
+
+
+          <!-- SLANTED DIV START-->
+
+            <div id="slantedintro">
+              <div id="intropromodiv" class="grid-x align-center-middle grid-container">
+
+            <div id="imagecover" class="cell small-11 medium-8 large-10">
+
+                <img src="images/intronando.png" alt="Nando DOria Profile" id="coverprofile">
+              <div id="whiteborder" class="cell small-11 medium-8 large-10">
+                <div id="introtext">
+                  <h1> NANDO </h1> <h1>DORIA</h1>
+                  <p> DESIGNER &amp DEVELOPER </p>
+                </div>
+                <div id="introphoto">
+                <img src="images/intronando.png" alt="Nando DOria Profile">
+                </div>
+              </div>
+            
+
+              </div>
             </div>
+
+          <!-- SLANTED DIV END-->
+
+
+
             
  
-      </div>
+      </div> <!-- END OF MAIN CONTAINER FULL-->
 
 
     <script src="js/vendor/jquery.js"></script>
