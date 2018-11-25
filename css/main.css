@@ -1,21 +1,8 @@
 body {
   font-family: 'Roboto', sans-serif; }
 
-#backgroundimage {
-  background-color: #F7D806;
-  height: 100vh; }
-
-#textbottom {
-  text-align: center;
-  margin-top: 35vh; }
-
-#textbottom img {
-  max-height: 150px;
-  margin-bottom: 30px; }
-
-#textbottom p {
-  font-weight: 200;
-  font-size: 1.2em;
-  color: #272727; }
+.title-bar .menu-icon {
+  margin-left: 20.55rem;
+  margin-right: 0.25rem; }
 
 /*# sourceMappingURL=main.css.map */
