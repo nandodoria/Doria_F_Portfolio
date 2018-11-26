@@ -1,21 +1,12 @@
 @import '_vars';
 
+* { margin: 0; border: 0; padding: 0; }
+
 body
 {
     font-family: 'Roboto', sans-serif;
 }
 
-h1
-{
-    margin: 0;
-    padding: 0;
-}
-
-p
-{
-    margin: 0;
-    padding: 0;
-}
 
 
 #phonemenubar
@@ -106,7 +97,7 @@ p
 
 #intropromodiv
 {
-    margin-bottom: 60px;
+    margin-bottom: 10px;
 }
 
 
@@ -176,4 +167,165 @@ p
     bottom: 6px;
     right: 8px;
     z-index: 45;
+}
+
+
+
+
+
+
+.abouticon
+{
+    float: left;
+    margin-left: 20px;
+}
+
+#abouticons
+{
+    margin-top: 20px;
+}
+
+#aboutparagraph
+{
+    text-align: center;
+    font-size: 0.9em;
+    
+}
+
+
+
+#project1
+{
+    margin-top: 20px;
+}
+
+#work1text
+{
+    margin-top: 20px;
+}
+
+#work2text
+{
+    margin-top: 20px;
+}
+
+#work3text
+{
+    margin-top: 20px;
+}
+
+
+.projecttitle
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25em;
+    font-weight: 700;
+    margin-bottom: 0;
+    color: $nandoblack;
+    display: block;
+}
+
+.projecttagline
+{
+    font-size: 0.788em;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 5px;
+    color: $nandoyellow;
+    text-transform: uppercase;
+    display: block;
+}
+
+.workpreviewline
+{
+    border: 2px solid #e4e6e7;
+    width: 10%;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+
+}
+
+.projectdesc
+{
+    display: block;
+    font-size:  0.813em;
+    font-weight: 200;
+}
+
+.projectbutton
+{
+    display: block;
+    border-style: solid;
+    border-color: #272727;
+    border-width: 1px;
+    text-align: center;
+    font-size: 0.75em;
+    font-weight: bold;
+    padding: 4px;
+    color: #272727;
+    max-width: 40%;
+}
+
+.projectbutton p
+{
+    margin-bottom: 0;
+    font-family: $robotofont;
+    font-weight: 700;
+}
+
+.projectbutton:hover
+{
+    background-color: $nandoyellow;
+    border-color: $nandoyellow;
+    color: white;
+    cursor: pointer;
+}
+
+#project2
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#workbutton
+{
+    border-style: solid;
+    border-color: #272727;
+    border-width: 1px;
+    text-align: center;
+    font-size: 0.75em;
+    font-weight: bold;
+    padding: 8px;
+    color: #272727;
+    max-width: 50%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+#workbutton:hover
+{
+    background-color: $nandoyellow;
+    border-color: $nandoyellow;
+    color: white;
+    cursor: pointer;
+}
+
+#workbutton p
+{
+    margin: 0;
+}
+
+
+
+
+
+
+
+#slantedcontact
+{
+    -webkit-clip-path: polygon(0 0, 100% 19%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 19%, 100% 100%, 0% 100%);
+    background-color: $nandoyellow;
 }
