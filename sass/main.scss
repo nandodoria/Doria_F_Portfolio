@@ -57,9 +57,9 @@ body
 
 .menu-icon:hover::after 
 {
-    background: #272727;
-    -webkit-box-shadow: 0 7px 0 #272727, 0 14px 0 #272727;
-    box-shadow: 0 10px 0 #272727, 0 20px 0 #272727;
+    background: rgb(255, 255, 255);
+    -webkit-box-shadow: 0 7px 0 rgb(255, 255, 255), 0 14px 0 rgb(255, 255, 255);
+    box-shadow: 0 10px 0 rgb(255, 255, 255), 0 20px 0 rgb(255, 255, 255);
 }
 
 #nav-menu
@@ -87,6 +87,11 @@ body
     font-size: 0.8em;
 }
 
+#navitems li a:hover
+{
+    color: white;
+}
+
 #slantedintro
 {
     background-color: $nandoyellow;
@@ -110,6 +115,7 @@ body
     overflow: hidden;
     margin-top: 60px;
     position: relative;
+    max-width: 400px;
 }
 
 #introtext
@@ -139,6 +145,7 @@ body
     line-height: 1;
     font-size: 2.1em;
     margin-bottom: 0;
+    font-family: $robotofont
 }
 
 #introtext p
@@ -159,6 +166,7 @@ body
     overflow: hidden;
     position: relative;
     margin-bottom: 80px;
+    max-width: 400px;
 }
 
 #coverprofile
@@ -173,7 +181,10 @@ body
 
 
 
-
+#aboutsection
+{
+    margin-top: 25px;
+}
 
 .abouticon
 {
@@ -218,11 +229,52 @@ body
     
 }
 
+#abouttext
+{
+    position: relative;
+    text-align: center;
+}
+
+#aboutheader
+{
+    z-index: -1;
+    color: $nandogrey;
+    font-family: $robotofont;
+    font-weight: 700;
+    font-size: 7.5em;
+    text-align: center;
+    margin: 0px;
+    line-height: 0;
+    position: relative;
+}
+
+#linktext
+{
+    color: $nandoyellow;
+}
+
+#linktext:hover
+{
+    color: $nandogrey;
+}
 
 
 
 
 
+
+#workheader
+{
+    z-index: -1;
+    color: $nandogrey;
+    font-family: $robotofont;
+    font-weight: 700;
+    font-size: 7.5em;
+    text-align: center;
+    margin: 0px;
+    line-height: 0;
+    position: relative;
+}
 
 #project1
 {
@@ -282,6 +334,7 @@ body
     display: block;
     font-size:  0.813em;
     font-weight: 200;
+    line-height: normal;
 }
 
 .projectbutton
@@ -360,6 +413,21 @@ body
     -webkit-clip-path: polygon(0 0, 100% 19%, 100% 100%, 0% 100%);
     clip-path: polygon(0 0, 100% 19%, 100% 100%, 0% 100%);
     background-color: $nandoyellow;
+}
+
+#contactheader
+{
+    z-index: -1;
+    color: white;
+    opacity: 0.2;
+    font-family: $robotofont;
+    font-weight: 700;
+    font-size: 7.5em;
+    text-align: center;
+    margin: 0px;
+    line-height: 0;
+    position: relative;
+    margin-top: 70px;
 }
 
 #chattext
@@ -465,13 +533,330 @@ body
 
 
 
-
-/* -----------------------MEDIA QUERIES--------------------------- */
+/* ANCHOR MOBILE MEDIA QUERIES */
 
 @media screen and (min-width: 350px) /* On screens that are ___px wide or greater */
 {
-    #activitydiv
+    #navitems li a
     {
-        margin-bottom: 10px;
+        color: $nandoblack;
+        font-family: $robotofont;
+        font-weight: 700;
+        font-size: 1em; 
     }
+
+
+}
+
+
+@media screen and (min-width: 375px) /* On screens that are ___px wide or greater */
+{
+
+    #introtext h1
+    {
+        font-weight: 700;
+        line-height: 1;
+        font-size: 2.5em;
+        margin-bottom: 0;
+    }
+
+    #introtext p
+    {
+        font-family: $robotofont;
+        margin-top: 10px;
+        font-size: 0.75em;
+        margin-bottom: 20px;
+        font-weight: 700;
+    }
+
+
+}
+
+
+@media screen and (min-width: 400px) /* On screens that are ___px wide or greater */
+{
+
+    .projecttitle
+    {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.35em;
+        font-weight: 700;
+        margin-bottom: 0;
+        color: $nandoblack;
+        display: block;
+    }
+
+    .projecttagline
+    {
+        font-size: 0.888em;
+        font-weight: bold;
+        margin-bottom: 0;
+        margin-top: 5px;
+        color: $nandoyellow;
+        text-transform: uppercase;
+        display: block;
+    }
+
+    #navitems li a
+    {
+        color: $nandoblack;
+        font-family: $robotofont;
+        font-weight: 700;
+        font-size: 1.3em; 
+    }
+
+    #footerlogo
+    {
+        max-height: 60px;
+    }
+
+}
+
+@media screen and (min-width: 414px) /* On screens that are ___px wide or greater */
+{
+
+    #introtext h1
+    {
+        font-family: $robotofont;
+        font-weight: 700;
+        line-height: 0.95;
+        font-size: 2.8em;
+        margin-bottom: 0;
+        
+    }
+
+    #introtext p
+    {
+        font-family: $robotofont;
+        margin-top: 10px;
+        font-size: 0.87em;
+        margin-bottom: 20px;
+        font-weight: 700;
+    }
+
+
+}
+
+@media screen and (min-width: 460px) /* On screens that are ___px wide or greater */
+{
+
+    #introtext h1
+    {
+        font-family: $robotofont;
+        font-weight: 700;
+        line-height: 0.95;
+        font-size: 3em;
+        margin-bottom: 0;
+        
+    }
+
+    #introtext p
+    {
+        font-family: $robotofont;
+        margin-top: 10px;
+        font-size: 1em;
+        margin-bottom: 20px;
+        font-weight: 700;
+    }
+
+    .projecttitle
+    {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.55em;
+        font-weight: 700;
+        margin-bottom: 0;
+        color: $nandoblack;
+        display: block;
+    }
+
+    .projecttagline
+    {
+        font-size: 0.988em;
+        font-weight: bold;
+        margin-bottom: 0;
+        margin-top: 5px;
+        color: $nandoyellow;
+        text-transform: uppercase;
+        display: block;
+    }
+
+    .workpreviewline
+    {
+        border: 2px solid #e4e6e7;
+        width: 20%;
+        margin: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: block;
+
+    }
+
+    .projectdesc
+    {
+        display: block;
+        font-size:  0.853em;
+        font-weight: 200;
+    }
+
+    .projectbutton
+    {
+        display: block;
+        border-style: solid;
+        border-color: #272727;
+        border-width: 2px;
+        text-align: center;
+        font-size: 0.75em;
+        font-weight: bold;
+        padding: 4px;
+        color: #272727;
+        max-width: 35%;
+    }
+
+    .projectbutton p
+    {
+        margin-bottom: 0;
+        font-family: $robotofont;
+        font-weight: 700;
+    }
+
+
+}
+
+@media screen and (min-width: 475px) /* On screens that are ___px wide or greater */
+{
+    .abouticon {
+        display: inline-block;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #aboutparagraph
+    {
+        text-align: center;
+        font-size: 1em;
+        font-weight: 300;
+    }
+
+    .abouticon p 
+    {
+        font-size: 0.9em;
+    }
+
+}
+
+@media screen and (min-width: 480px) /* On screens that are ___px wide or greater */
+{
+
+    #introtext h1
+    {
+        font-family: $robotofont;
+        font-weight: 700;
+        line-height: 0.95;
+        font-size: 3.5em;
+        margin-bottom: 0;
+        
+    }
+
+    #introtext p
+    {
+        font-family: $robotofont;
+        margin-top: 10px;
+        font-size: 1em;
+        margin-bottom: 10px;
+        font-weight: 700;
+    }
+
+    #introtext
+    {
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+
+}
+
+
+@media screen and (min-width: 490px) /* On screens that are ___px wide or greater */
+{
+
+    #coverprofile
+    {
+        right: 15px;
+    }
+   
+
+}
+
+@media screen and (min-width: 530px) /* On screens that are ___px wide or greater */
+{
+
+    .projectbutton
+    {
+        max-width: 30%;
+    }
+
+    #chattext {
+        font-size: 2.1em;
+        
+    }
+   
+    #contactbutton p {
+        font-size: 1.45em;
+    }
+
+    .menu a {
+        padding-left: 0.9rem;
+        padding-right: 0.9rem;
+    }
+
+}
+
+
+@media screen and (min-width: 600px) /* On screens that are ___px wide or greater */
+{
+
+    .abouticon {
+        display: inline-block;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+   
+
+}
+
+
+/* ANCHOR TABLET MEDIA QUERIES */
+
+@media screen and (min-width: 640px) /* On screens that are ___px wide or greater */
+{
+    #navitems li a
+    {
+
+        font-size: 1em; 
+    }
+
+    .projectbutton
+    {
+        max-width: 40%;
+    }
+
+    .footericon {
+        max-width: 25px;
+        margin: 20px;
+    }
+
+    #aboutparagraph
+    {
+        margin-top: 15px;
+    }
+    
+    #workpreview
+    {
+        margin-top: 80px;
+    }
+
+    #chattext
+    {
+        margin-top: 20px;
+    }
+   
 }

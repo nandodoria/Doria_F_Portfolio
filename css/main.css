@@ -42,9 +42,9 @@ body {
   box-shadow: 0 10px 0 #272727, 0 20px 0 #272727; }
 
 .menu-icon:hover::after {
-  background: #272727;
-  -webkit-box-shadow: 0 7px 0 #272727, 0 14px 0 #272727;
-  box-shadow: 0 10px 0 #272727, 0 20px 0 #272727; }
+  background: white;
+  -webkit-box-shadow: 0 7px 0 white, 0 14px 0 white;
+  box-shadow: 0 10px 0 white, 0 20px 0 white; }
 
 #nav-menu {
   background-color: #F7D806; }
@@ -63,6 +63,9 @@ body {
   font-weight: 700;
   font-size: 0.8em; }
 
+#navitems li a:hover {
+  color: white; }
+
 #slantedintro {
   background-color: #F7D806;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
@@ -77,7 +80,8 @@ body {
   border-width: 6px;
   overflow: hidden;
   margin-top: 60px;
-  position: relative; }
+  position: relative;
+  max-width: 400px; }
 
 #introtext {
   float: left;
@@ -97,7 +101,8 @@ body {
   font-weight: bold;
   line-height: 1;
   font-size: 2.1em;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  font-family: "Roboto", sans-serif; }
 
 #introtext p {
   font-family: "Roboto", sans-serif;
@@ -111,7 +116,8 @@ body {
 #imagecover {
   overflow: hidden;
   position: relative;
-  margin-bottom: 80px; }
+  margin-bottom: 80px;
+  max-width: 400px; }
 
 #coverprofile {
   max-width: 47%;
@@ -119,6 +125,9 @@ body {
   bottom: 6px;
   right: 8px;
   z-index: 45; }
+
+#aboutsection {
+  margin-top: 25px; }
 
 .abouticon {
   display: inline-block;
@@ -147,6 +156,38 @@ body {
   text-align: center;
   font-size: 0.9em;
   font-weight: 300; }
+
+#abouttext {
+  position: relative;
+  text-align: center; }
+
+#aboutheader {
+  z-index: -1;
+  color: #E4E6E7;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 7.5em;
+  text-align: center;
+  margin: 0px;
+  line-height: 0;
+  position: relative; }
+
+#linktext {
+  color: #F7D806; }
+
+#linktext:hover {
+  color: #E4E6E7; }
+
+#workheader {
+  z-index: -1;
+  color: #E4E6E7;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 7.5em;
+  text-align: center;
+  margin: 0px;
+  line-height: 0;
+  position: relative; }
 
 #project1 {
   margin-top: 20px; }
@@ -188,7 +229,8 @@ body {
 .projectdesc {
   display: block;
   font-size: 0.813em;
-  font-weight: 200; }
+  font-weight: 200;
+  line-height: normal; }
 
 .projectbutton {
   display: block;
@@ -245,6 +287,19 @@ body {
   -webkit-clip-path: polygon(0 0, 100% 19%, 100% 100%, 0% 100%);
   clip-path: polygon(0 0, 100% 19%, 100% 100%, 0% 100%);
   background-color: #F7D806; }
+
+#contactheader {
+  z-index: -1;
+  color: white;
+  opacity: 0.2;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 7.5em;
+  text-align: center;
+  margin: 0px;
+  line-height: 0;
+  position: relative;
+  margin-top: 70px; }
 
 #chattext {
   padding: 0;
@@ -311,9 +366,198 @@ body {
   opacity: 0.5;
   cursor: pointer; }
 
-/* -----------------------MEDIA QUERIES--------------------------- */
+/* ANCHOR MOBILE MEDIA QUERIES */
 @media screen and (min-width: 350px) {
-  #activitydiv {
-    margin-bottom: 10px; } }
+  #navitems li a {
+    color: #272727;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 1em; } }
+@media screen and (min-width: 375px) {
+  #introtext h1 {
+    font-weight: 700;
+    line-height: 1;
+    font-size: 2.5em;
+    margin-bottom: 0; }
+
+  #introtext p {
+    font-family: "Roboto", sans-serif;
+    margin-top: 10px;
+    font-size: 0.75em;
+    margin-bottom: 20px;
+    font-weight: 700; } }
+@media screen and (min-width: 400px) {
+  .projecttitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.35em;
+    font-weight: 700;
+    margin-bottom: 0;
+    color: #272727;
+    display: block; }
+
+  .projecttagline {
+    font-size: 0.888em;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 5px;
+    color: #F7D806;
+    text-transform: uppercase;
+    display: block; }
+
+  #navitems li a {
+    color: #272727;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 1.3em; }
+
+  #footerlogo {
+    max-height: 60px; } }
+@media screen and (min-width: 414px) {
+  #introtext h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    line-height: 0.95;
+    font-size: 2.8em;
+    margin-bottom: 0; }
+
+  #introtext p {
+    font-family: "Roboto", sans-serif;
+    margin-top: 10px;
+    font-size: 0.87em;
+    margin-bottom: 20px;
+    font-weight: 700; } }
+@media screen and (min-width: 460px) {
+  #introtext h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    line-height: 0.95;
+    font-size: 3em;
+    margin-bottom: 0; }
+
+  #introtext p {
+    font-family: "Roboto", sans-serif;
+    margin-top: 10px;
+    font-size: 1em;
+    margin-bottom: 20px;
+    font-weight: 700; }
+
+  .projecttitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.55em;
+    font-weight: 700;
+    margin-bottom: 0;
+    color: #272727;
+    display: block; }
+
+  .projecttagline {
+    font-size: 0.988em;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 5px;
+    color: #F7D806;
+    text-transform: uppercase;
+    display: block; }
+
+  .workpreviewline {
+    border: 2px solid #e4e6e7;
+    width: 20%;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block; }
+
+  .projectdesc {
+    display: block;
+    font-size: 0.853em;
+    font-weight: 200; }
+
+  .projectbutton {
+    display: block;
+    border-style: solid;
+    border-color: #272727;
+    border-width: 2px;
+    text-align: center;
+    font-size: 0.75em;
+    font-weight: bold;
+    padding: 4px;
+    color: #272727;
+    max-width: 35%; }
+
+  .projectbutton p {
+    margin-bottom: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700; } }
+@media screen and (min-width: 475px) {
+  .abouticon {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px; }
+
+  #aboutparagraph {
+    text-align: center;
+    font-size: 1em;
+    font-weight: 300; }
+
+  .abouticon p {
+    font-size: 0.9em; } }
+@media screen and (min-width: 480px) {
+  #introtext h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    line-height: 0.95;
+    font-size: 3.5em;
+    margin-bottom: 0; }
+
+  #introtext p {
+    font-family: "Roboto", sans-serif;
+    margin-top: 10px;
+    font-size: 1em;
+    margin-bottom: 10px;
+    font-weight: 700; }
+
+  #introtext {
+    margin-top: 10px;
+    margin-left: 15px; } }
+@media screen and (min-width: 490px) {
+  #coverprofile {
+    right: 15px; } }
+@media screen and (min-width: 530px) {
+  .projectbutton {
+    max-width: 30%; }
+
+  #chattext {
+    font-size: 2.1em; }
+
+  #contactbutton p {
+    font-size: 1.45em; }
+
+  .menu a {
+    padding-left: 0.9rem;
+    padding-right: 0.9rem; } }
+@media screen and (min-width: 600px) {
+  .abouticon {
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 30px; } }
+/* ANCHOR TABLET MEDIA QUERIES */
+@media screen and (min-width: 640px) {
+  #navitems li a {
+    font-size: 1em; }
+
+  .projectbutton {
+    max-width: 40%; }
+
+  .footericon {
+    max-width: 25px;
+    margin: 20px; }
+
+  #aboutparagraph {
+    margin-top: 15px; }
+
+  #workpreview {
+    margin-top: 80px; }
+
+  #chattext {
+    margin-top: 20px; } }
 
 /*# sourceMappingURL=main.css.map */
