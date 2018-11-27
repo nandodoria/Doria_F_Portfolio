@@ -79,7 +79,7 @@ body {
   border-color: white;
   border-width: 6px;
   overflow: hidden;
-  margin-top: 60px;
+  margin-top: 50px;
   position: relative;
   max-width: 400px; }
 
@@ -183,7 +183,7 @@ body {
   color: #E4E6E7;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
-  font-size: 7.5em;
+  font-size: 8em;
   text-align: center;
   margin: 0px;
   line-height: 0;
@@ -558,6 +558,270 @@ body {
     margin-top: 80px; }
 
   #chattext {
-    margin-top: 20px; } }
+    margin-top: 20px;
+    font-size: 2.5em; }
+
+  #imagecover {
+    max-width: none;
+    padding-top: 50px; }
+
+  #slantedintro {
+    padding-bottom: 20px; }
+
+  #whiteborder {
+    max-width: none; }
+
+  #introtext h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    line-height: 0.95;
+    font-size: 3em;
+    margin-bottom: 0; }
+
+  #introtext p {
+    font-family: "Roboto", sans-serif;
+    margin-top: 10px;
+    font-size: 0.7em;
+    margin-bottom: 10px;
+    font-weight: 700; }
+
+  #coverprofile {
+    max-height: 250px; }
+
+  .abouticon img {
+    height: 40px;
+    margin-bottom: 10px; } }
+@media screen and (min-width: 750px) {
+  #introtext h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    line-height: 0.95;
+    font-size: 4em;
+    margin-bottom: 0; }
+
+  #introtext p {
+    font-family: "Roboto", sans-serif;
+    margin-top: 10px;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+    font-weight: 700; } }
+@media screen and (min-width: 775px) {
+  #work1text {
+    margin-top: 50px; }
+
+  #work2text {
+    margin-top: 50px; }
+
+  #work3text {
+    margin-top: 50px; } }
+@media screen and (min-width: 780px) {
+  #imagecover {
+    padding-top: 60px; } }
+@media screen and (min-width: 800px) {
+  .projectbutton {
+    max-width: 30%; } }
+@media screen and (min-width: 850px) {
+  #introtext h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    line-height: 0.95;
+    font-size: 4.5em;
+    margin-bottom: 0; }
+
+  #introtext p {
+    font-family: "Roboto", sans-serif;
+    margin-top: 10px;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-weight: 700; } }
+@media screen and (min-width: 900px) {
+  #work1text {
+    margin-top: 60px; }
+
+  #work2text {
+    margin-top: 60px; }
+
+  #work3text {
+    margin-top: 60px; } }
+@media screen and (min-width: 950px) {
+  #introtext h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    line-height: 0.95;
+    font-size: 5.2em;
+    margin-bottom: 0; }
+
+  #introtext p {
+    font-family: "Roboto", sans-serif;
+    margin-top: 10px;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    font-weight: 700; } }
+/* ANCHOR DESKTOP MEDIA QUERIES */
+@media screen and (min-width: 1024px) {
+  #navitems li a {
+    font-size: 1.2em; }
+
+  .menu a {
+    padding-left: 1rem;
+    padding-right: 1rem; }
+
+  #coverprofile {
+    max-height: none;
+    bottom: 15px; }
+
+  #imagecover {
+    padding-top: 100px;
+    margin-bottom: 240px; }
+
+  #slantedintro {
+    background-color: #F7D806;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%); }
+
+  #introtext {
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-bottom: 30px; }
+
+  #introtext h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    line-height: 0.95;
+    font-size: 7.2em;
+    margin-bottom: 0; }
+
+  #introtext p {
+    font-family: "Roboto", sans-serif;
+    margin-top: 10px;
+    font-size: 2em;
+    margin-bottom: 10px;
+    font-weight: 700; }
+
+  #whiteborder {
+    border-width: 15px; }
+
+  .menu a {
+    padding-left: 0.9rem;
+    padding-right: 0.9rem; }
+
+  #aboutheader {
+    font-size: 10em; }
+
+  #workheader {
+    font-size: 10em; }
+
+  #contactheader {
+    font-size: 10em; }
+
+  .abouticon img {
+    height: 60px;
+    margin-bottom: 10px; }
+
+  .abouticon {
+    display: inline-block;
+    margin-left: 60px;
+    margin-right: 60px; }
+
+  #aboutparagraph {
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: 300; }
+
+  #workpreview {
+    margin-top: 130px; }
+
+  .abouticon p {
+    font-size: 1.2em; }
+
+  #work1text {
+    padding-left: 30px;
+    margin-top: 100px; }
+
+  #work2text {
+    padding-left: 30px;
+    margin-top: 100px; }
+
+  #work3text {
+    padding-left: 30px;
+    margin-top: 100px; }
+
+  #project2 {
+    margin-top: 100px;
+    margin-bottom: 100px; }
+
+  .projecttitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.55em;
+    font-weight: 700;
+    margin-bottom: 0;
+    color: #272727;
+    display: block; }
+
+  .projecttagline {
+    font-size: 1.58em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    color: #F7D806;
+    text-transform: uppercase;
+    display: block; }
+
+  .projectdesc {
+    display: block;
+    font-size: 1.253em;
+    font-weight: 200;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+
+  .projectbutton p {
+    margin-bottom: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 1.5em; }
+
+  .projectbutton {
+    max-width: 35%; }
+
+  #workbutton p {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 1.6em; }
+
+  #workbutton {
+    padding: 10px; }
+
+  #abouticoncenter {
+    text-align: center;
+    margin-top: 40px; }
+
+  #chattext {
+    margin-top: 50px;
+    font-size: 3.5em; }
+
+  #contactdesc {
+    text-align: center;
+    margin-top: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 1.55em;
+    line-height: normal;
+    color: white; }
+
+  #contactheader {
+    margin-top: 100px; }
+
+  #contactbutton {
+    max-width: 15%;
+    margin-bottom: 80px;
+    margin-top: 40px; }
+
+  #contactbutton p {
+    font-size: 1.9em; }
+
+  .footericon {
+    max-width: 35px;
+    margin: 20px; } }
 
 /*# sourceMappingURL=main.css.map */
