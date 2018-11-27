@@ -4,7 +4,8 @@
   padding: 0; }
 
 body {
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden; }
 
 #phonemenubar {
   background-color: #F7D806;
@@ -53,14 +54,14 @@ body {
   float: right; }
 
 .menu a {
-  padding-left: 0.8rem;
-  padding-right: 0.8rem; }
+  padding-left: 0.6rem;
+  padding-right: 0.6rem; }
 
 #navitems li a {
   color: #272727;
   font-family: "Roboto", sans-serif;
-  font-weight: bold;
-  font-size: 0.9em; }
+  font-weight: 700;
+  font-size: 0.8em; }
 
 #slantedintro {
   background-color: #F7D806;
@@ -90,7 +91,7 @@ body {
   position: absolute;
   bottom: 0;
   right: 0;
-  opacity: 0.2; }
+  opacity: 0; }
 
 #introtext h1 {
   font-weight: bold;
@@ -120,15 +121,32 @@ body {
   z-index: 45; }
 
 .abouticon {
-  float: left;
-  margin-left: 20px; }
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px; }
 
 #abouticons {
   margin-top: 20px; }
 
+#abouticoncenter {
+  text-align: center; }
+
+#aboutsection {
+  text-align: center; }
+
+.abouticon img {
+  height: 30px;
+  margin-bottom: 10px; }
+
+.abouticon p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 0.8em; }
+
 #aboutparagraph {
   text-align: center;
-  font-size: 0.9em; }
+  font-size: 0.9em;
+  font-weight: 300; }
 
 #project1 {
   margin-top: 20px; }
@@ -176,7 +194,7 @@ body {
   display: block;
   border-style: solid;
   border-color: #272727;
-  border-width: 1px;
+  border-width: 2px;
   text-align: center;
   font-size: 0.75em;
   font-weight: bold;
@@ -202,7 +220,7 @@ body {
 #workbutton {
   border-style: solid;
   border-color: #272727;
-  border-width: 1px;
+  border-width: 2px;
   text-align: center;
   font-size: 0.75em;
   font-weight: bold;
@@ -219,11 +237,83 @@ body {
   cursor: pointer; }
 
 #workbutton p {
-  margin: 0; }
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700; }
 
 #slantedcontact {
   -webkit-clip-path: polygon(0 0, 100% 19%, 100% 100%, 0% 100%);
   clip-path: polygon(0 0, 100% 19%, 100% 100%, 0% 100%);
   background-color: #F7D806; }
+
+#chattext {
+  padding: 0;
+  margin-top: 60px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 1.75em;
+  color: white; }
+
+#contactdesc {
+  text-align: center;
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1.15em;
+  line-height: normal;
+  color: white; }
+
+#contactbutton {
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  text-align: center;
+  font-size: 0.75em;
+  font-weight: bold;
+  padding: 8px;
+  color: white;
+  max-width: 50%;
+  margin-top: 20px;
+  margin-bottom: 30px; }
+
+#contactbutton p {
+  margin-bottom: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 1.15em; }
+
+#contactbutton:hover {
+  background-color: white;
+  color: #F7D806;
+  cursor: pointer; }
+
+#footersection {
+  background-color: #272727; }
+
+#footerlogo {
+  margin-top: 40px;
+  margin-bottom: 40px; }
+
+#footerlogo:hover {
+  opacity: 0.5;
+  cursor: pointer; }
+
+#socialicons {
+  text-align: center;
+  margin-bottom: 20px; }
+
+.footericon {
+  max-width: 22px;
+  margin: 10px; }
+
+.footericon:hover {
+  opacity: 0.5;
+  cursor: pointer; }
+
+/* -----------------------MEDIA QUERIES--------------------------- */
+@media screen and (min-width: 350px) {
+  #activitydiv {
+    margin-bottom: 10px; } }
 
 /*# sourceMappingURL=main.css.map */
