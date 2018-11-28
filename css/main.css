@@ -7,6 +7,7 @@ body {
   font-family: 'Roboto', sans-serif;
   overflow-x: hidden; }
 
+/* ANCHOR NAVIGATION */
 #phonemenubar {
   background-color: #F7D806;
   overflow: hidden; }
@@ -66,6 +67,7 @@ body {
 #navitems li a:hover {
   color: white; }
 
+/* ANCHOR INTRO INDEX */
 #slantedintro {
   background-color: #F7D806;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
@@ -126,6 +128,7 @@ body {
   right: 8px;
   z-index: 45; }
 
+/* ANCHOR ABOUT INDEX */
 #aboutsection {
   margin-top: 25px; }
 
@@ -178,6 +181,7 @@ body {
 #linktext:hover {
   color: #E4E6E7; }
 
+/* ANCHOR WORK INDEX */
 #workheader {
   z-index: -1;
   color: #E4E6E7;
@@ -283,6 +287,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 700; }
 
+/* ANCHOR CONTACT INDEX */
 #slantedcontact {
   -webkit-clip-path: polygon(0 0, 100% 19%, 100% 100%, 0% 100%);
   clip-path: polygon(0 0, 100% 19%, 100% 100%, 0% 100%);
@@ -343,6 +348,7 @@ body {
   color: #F7D806;
   cursor: pointer; }
 
+/* ANCHOR FOOTER */
 #footersection {
   background-color: #272727; }
 
@@ -365,6 +371,65 @@ body {
 .footericon:hover {
   opacity: 0.5;
   cursor: pointer; }
+
+/* ANCHOR CONTACT.HTML */
+#contactsend {
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #F7D806; }
+
+#contactback {
+  background-color: #272727; }
+
+#contactcontent {
+  background-color: #272727; }
+
+#socialplug {
+  background-color: #F7D806; }
+
+#contacttitle {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 1.8em;
+  text-align: center;
+  color: white;
+  padding-top: 20px; }
+
+#contactline {
+  max-width: 20%;
+  margin-top: 5px;
+  border-bottom: 3px solid #F7D806; }
+
+#contactinfo {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: white;
+  font-size: 1em;
+  line-height: normal;
+  margin-left: 0.9375rem; }
+
+#name {
+  margin-bottom: 0; }
+
+#email {
+  margin-bottom: 0; }
+
+#subject {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+[type='text'], [type='email'], textarea {
+  border: none;
+  border-radius: 0; }
 
 /* ANCHOR MOBILE MEDIA QUERIES */
 @media screen and (min-width: 350px) {

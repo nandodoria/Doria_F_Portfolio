@@ -8,7 +8,7 @@ body
     overflow-x: hidden;
 }
 
-
+/* ANCHOR NAVIGATION */
 
 #phonemenubar
 {
@@ -91,6 +91,9 @@ body
 {
     color: white;
 }
+
+
+/* ANCHOR INTRO INDEX */
 
 #slantedintro
 {
@@ -179,7 +182,7 @@ body
 }
 
 
-
+/* ANCHOR ABOUT INDEX */
 
 #aboutsection
 {
@@ -259,9 +262,7 @@ body
 }
 
 
-
-
-
+/* ANCHOR WORK INDEX */
 
 #workheader
 {
@@ -406,7 +407,7 @@ body
 
 
 
-
+/* ANCHOR CONTACT INDEX */
 
 #slantedcontact
 {
@@ -487,7 +488,7 @@ body
 
 
 
-
+/* ANCHOR FOOTER */
 
 #footersection
 {
@@ -527,6 +528,90 @@ body
 
 
 
+
+
+/* ANCHOR CONTACT.HTML */
+
+#contactsend
+{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: $nandoyellow;
+}
+
+#contactback
+{
+    background-color: $nandoblack;
+}
+
+#contactcontent
+{
+    background-color: $nandoblack;
+}
+
+#socialplug
+{
+    background-color: $nandoyellow;
+}
+
+#contacttitle
+{
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+    font-family: $robotofont;
+    font-weight: 700;
+    font-size: 1.8em;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+
+#contactline
+{
+    max-width: 20%;
+    margin-top: 5px;
+    border-bottom: 3px solid $nandoyellow;
+}
+
+#contactinfo
+{
+    font-family: $robotofont;
+    font-weight: 300;
+    color: white;
+    font-size: 1em;
+    line-height: normal;
+    margin-left: 0.9375rem;
+}
+
+
+#name
+{
+    margin-bottom: 0;
+}
+
+#email
+{
+    margin-bottom: 0;
+}
+
+#subject
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+[type='text'], [type='email'], textarea
+{
+    border: none;
+    border-radius: 0;
+}
 
 
 
