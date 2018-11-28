@@ -375,14 +375,21 @@ body {
 /* ANCHOR CONTACT.HTML */
 #contactsend {
   border-style: solid;
-  border-color: black;
+  border-color: #F7D806;
   border-width: 2px;
   text-align: center;
   font-size: 1em;
   font-weight: bold;
   padding-top: 10px;
   padding-bottom: 10px;
-  color: #F7D806; }
+  color: #F7D806;
+  margin-bottom: 20px;
+  border-radius: 0; }
+
+#contactsend:hover {
+  background-color: #F7D806;
+  color: white;
+  cursor: pointer; }
 
 #contactback {
   background-color: #272727; }
@@ -418,18 +425,73 @@ body {
   margin-left: 0.9375rem; }
 
 #name {
-  margin-bottom: 0; }
+  margin-bottom: 20px;
+  padding: 10px;
+  background: #37393B;
+  border: none;
+  border-radius: 0;
+  color: white;
+  font-family: "Roboto", sans-serif; }
 
 #email {
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  padding: 10px;
+  background: #37393B;
+  border: none;
+  border-radius: 0;
+  color: white;
+  font-family: "Roboto", sans-serif; }
 
 #subject {
   margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background: #37393B;
+  border: none;
+  border-radius: 0;
+  color: white;
+  font-family: "Roboto", sans-serif; }
+
+textarea {
+  border: none;
+  border-radius: 0;
+  background: #37393B;
+  resize: none;
+  padding: 10px;
+  height: 150px;
+  color: white;
+  font-family: "Roboto", sans-serif; }
+
+[type='text']:focus {
+  background: #37393B;
+  box-shadow: 0 4px 2px -2px #F7D806;
+  border: none; }
+
+[type='email']:focus {
+  background: #37393B;
+  box-shadow: 0 4px 2px -2px #F7D806;
+  border: none; }
+
+textarea:focus {
+  background: #37393B;
+  box-shadow: 0 4px 2px -2px #F7D806;
+  border: none; }
+
+.contacticon {
+  max-width: 30px;
+  margin: 10px;
   margin-bottom: 20px; }
 
-[type='text'], [type='email'], textarea {
-  border: none;
-  border-radius: 0; }
+#socialtext {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  color: white; }
+
+#socialiconscontact {
+  text-align: center;
+  margin-top: 20px; }
 
 /* ANCHOR MOBILE MEDIA QUERIES */
 @media screen and (min-width: 350px) {
@@ -655,7 +717,27 @@ body {
 
   .abouticon img {
     height: 40px;
-    margin-bottom: 10px; } }
+    margin-bottom: 10px; }
+
+  /* CONTACT.HTML */
+  #name {
+    margin-bottom: 0px; }
+
+  #contacttitle {
+    font-size: 2.2em;
+    margin-bottom: 10px; }
+
+  #socialtext {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 1.4em;
+    color: white; }
+
+  .contacticon {
+    max-width: 40px;
+    margin: 15px;
+    margin-bottom: 30px; } }
 @media screen and (min-width: 750px) {
   #introtext h1 {
     font-family: "Roboto", sans-serif;
@@ -887,6 +969,26 @@ body {
 
   .footericon {
     max-width: 35px;
-    margin: 20px; } }
+    margin: 20px; }
+
+  /* CONTACT.HTML */
+  #name {
+    margin-bottom: 0px; }
+
+  #contacttitle {
+    font-size: 2.8em;
+    margin-bottom: 10px; }
+
+  #socialtext {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 1.8em;
+    color: white; }
+
+  .contacticon {
+    max-width: 45px;
+    margin: 20px;
+    margin-bottom: 30px; } }
 
 /*# sourceMappingURL=main.css.map */
