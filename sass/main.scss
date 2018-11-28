@@ -676,11 +676,6 @@ textarea:focus
     margin-bottom: 20px;
 }
 
-.contacticon:hover
-{
-
-}
-
 
 #socialtext
 {
@@ -697,6 +692,150 @@ textarea:focus
     margin-top: 20px;
 }
 
+
+ /* ANCHOR WORK.HTML */
+
+ #workproject1image
+ {
+     background-color: red;
+     height: 300px;
+ }
+
+ #workproject2image
+ {
+     background-color: lightblue;
+     height: 300px;
+ }
+
+ #workproject3image
+ {
+     background-color: lightgreen;
+     height: 300px;
+ }
+
+ #workproject4image
+ {
+     background-color: lightcoral;
+     height: 300px;
+ }
+
+ #titlesection
+ {
+     background-color: white;
+     text-align: center;
+     padding-bottom: 5px;
+ }
+
+ #workline
+ {
+    max-width: 20%;
+    margin-top: 5px;
+    border-bottom: 3px solid $nandoyellow;
+ }
+
+#worktitle
+{
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+    font-family: $robotofont;
+    font-weight: 700;
+    font-size: 1.8em;
+    text-align: center;
+    color: $nandogrey;
+    padding-top: 10px;
+}
+
+#workproject1text
+{
+    background-color: brown;
+    width: 100%;
+}
+
+#workproject2text
+{
+    background-color: blue;
+    width: 100%;
+}
+
+#workproject3text
+{
+    background-color: green;
+    width: 100%;
+}
+
+#workproject4text
+{
+    background-color:coral;
+    width: 100%;
+}
+
+.workprojecttextbox
+{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.workprojecttitle
+{
+    font-family: $robotofont;
+    font-weight: 700;
+    font-size: 2.18em;
+    margin: 0;
+    padding: 0;
+    color: white;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.workprojectlist
+{
+    list-style-type: none;
+    margin-left: 0;
+    margin-bottom: 10px;
+}
+
+.workprojectli
+{
+    font-family: $robotofont;
+    font-weight: 300;
+    font-size: 0.9em;
+    padding: 0;
+    color: white;
+    line-height: 1.8;
+}
+
+.workprojectbutton
+{
+    display: block;
+    border-style: solid;
+    border-color: #272727;
+    border-width: 2px;
+    text-align: center;
+    font-size: 0.75em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: $nandoblack;
+    color: white;
+    max-width: 50%;
+    border-radius: 4px;
+}
+
+.workprojectbutton:hover
+{
+    cursor: pointer;
+    background-color: $contactgrey;
+    border-color: $contactgrey;
+}
+
+.workprojectbutton p
+{
+    margin-bottom: 0;
+    font-family: $robotofont;
+    font-weight: 700;
+    font-size: 1.3em;
+}
 
 
 
@@ -1487,5 +1626,44 @@ textarea:focus
         margin: 20px;
         margin-bottom: 30px;
     }
+
+
+
+
+    /* WORK.HTML */
+
+    #workproject1text
+    {
+        background-color: brown;
+        width: 50%;
+    }
+
+    #workproject2text
+    {
+        background-color: blue;
+        width: 50%;
+    }
+
+    #workproject3text
+    {
+        background-color: green;
+        width: 50%;
+    }
+
+    #workproject4text
+    {
+        background-color:coral;
+        width: 50%;
+    }
+
+
+
+
+
+
+
+
+
+
 
 }
