@@ -606,6 +606,105 @@ textarea:focus {
   font-weight: 700;
   font-size: 1.3em; }
 
+/* ANCHOR FELLOWSHIP.HTML */
+#work_background {
+  background-color: #F1C928; }
+
+.work_title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 1.75em;
+  text-align: center;
+  line-height: 1;
+  color: #272727; }
+
+.work_paragraph {
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  line-height: normal;
+  color: white;
+  text-align: center; }
+
+.work_introduction {
+  margin-top: 20px;
+  text-align: center; }
+
+.work_screenshot {
+  margin-bottom: 30px; }
+
+#fellowship_color1 {
+  background-color: #F1C928; }
+
+#fellowship_color2 {
+  background-color: #D1AF27; }
+
+#fellowship_color3 {
+  background-color: #39523D; }
+
+#fellowship_color4 {
+  background-color: #272727; }
+
+.circles {
+  text-align: center; }
+
+.design_color {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  margin: 5px;
+  display: inline-block; }
+
+.visualdesign {
+  margin-top: 20px; }
+
+.design_title {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 1.75em;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  margin-bottom: 10px;
+  color: #272727; }
+
+.design_paragraph {
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  line-height: normal;
+  color: #272727;
+  text-align: center;
+  line-height: normal; }
+
+.mockupsection {
+  height: 300px;
+  background-color: grey;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 20px; }
+
+.gallerytitle {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 1.75em;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  margin-bottom: 10px;
+  color: #272727; }
+
+.gallerybox {
+  margin-bottom: 20px; }
+
+#fellowship_lb img {
+  margin-top: 10%;
+  margin-bottom: 10px; }
+
 /* ANCHOR ABOUT.HTML */
 #aboutprofile {
   height: 275px;
@@ -1026,7 +1125,31 @@ textarea:focus {
     font-size: 1.3em; }
 
   .categorytitle {
-    font-size: 3.513em; } }
+    font-size: 3.513em; }
+
+  .work_title {
+    font-size: 2.35em; }
+
+  .work_paragraph {
+    font-size: 1.2em;
+    text-align: left;
+    padding: 20px; }
+
+  .design_title {
+    font-size: 2.35em; }
+
+  .design_paragraph {
+    font-size: 1.2em; }
+
+  .design_color {
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    margin: 10px;
+    display: inline-block; }
+
+  .gallerytitle {
+    font-size: 2.35em; } }
 @media screen and (min-width: 750px) {
   #introtext h1 {
     font-family: "Roboto", sans-serif;
@@ -1058,7 +1181,14 @@ textarea:focus {
     line-height: 2.25; } }
 @media screen and (min-width: 800px) {
   .projectbutton {
-    max-width: 30%; } }
+    max-width: 30%; }
+
+  .work_paragraph {
+    font-size: 1.2em;
+    text-align: left;
+    padding: 20px;
+    width: 80%;
+    display: inline-block; } }
 @media screen and (min-width: 850px) {
   #introtext h1 {
     font-family: "Roboto", sans-serif;
@@ -1381,7 +1511,50 @@ textarea:focus {
     margin-top: 40px; }
 
   .categorytitle {
-    font-size: 2.513em; } }
+    font-size: 2.513em; }
+
+  .work_title {
+    text-align: left;
+    padding-left: 20px; }
+
+  .work_paragraph {
+    text-align: left;
+    padding: 20px;
+    width: auto;
+    display: inline-block; }
+
+  .work_introduction {
+    margin-top: 80px; }
+
+  #work_background {
+    padding-top: 50px;
+    padding-bottom: 50px; }
+
+  .work_title {
+    font-size: 2.75em; }
+
+  .work_paragraph {
+    font-size: 1.3em;
+    line-height: 1.4; }
+
+  .work_screenshot {
+    margin-bottom: 0px; }
+
+  .design_paragraph {
+    padding: 0px;
+    font-size: 1.3em;
+    text-align: left;
+    line-height: 1.5;
+    padding-right: 10%; }
+
+  .design_title {
+    text-align: left; }
+
+  .designsection {
+    margin-top: 30px; }
+
+  .mockupsection {
+    height: 400px; } }
 @media screen and (min-width: 1170px) {
   .workprojecttextbox {
     margin-top: 150px;
