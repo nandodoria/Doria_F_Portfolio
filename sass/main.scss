@@ -383,7 +383,7 @@ body
     font-weight: bold;
     padding: 8px;
     color: #272727;
-    max-width: 50%;
+    max-width: 100%;
     margin-top: 50px;
     margin-bottom: 30px;
 }
@@ -463,7 +463,7 @@ body
     font-weight: bold;
     padding: 8px;
     color: white;
-    max-width: 50%;
+    max-width: 100%;
     margin-top: 20px;
     margin-bottom: 30px;
 }
@@ -1857,7 +1857,7 @@ textarea:focus
 
     #contactbutton
     {
-        max-width: 15%;
+        max-width: 100%;
         margin-bottom: 80px;
         margin-top: 40px;
     }
