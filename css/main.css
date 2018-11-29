@@ -495,20 +495,26 @@ textarea:focus {
 
 /* ANCHOR WORK.HTML */
 #workproject1image {
-  background-color: red;
-  height: 300px; }
+  height: 300px;
+  background-size: cover;
+  background-position: center; }
 
 #workproject2image {
-  background-color: lightblue;
+  background-size: cover;
+  background-position: center;
   height: 300px; }
 
 #workproject3image {
-  background-color: lightgreen;
-  height: 300px; }
+  background-color: #0846AE;
+  height: 300px;
+  background-size: cover;
+  background-position: center; }
 
 #workproject4image {
   background-color: lightcoral;
-  height: 300px; }
+  height: 300px;
+  background-size: cover;
+  background-position: center; }
 
 #titlesection {
   background-color: white;
@@ -532,15 +538,15 @@ textarea:focus {
   padding-top: 10px; }
 
 #workproject1text {
-  background-color: brown;
+  background-color: #35418A;
   width: 100%; }
 
 #workproject2text {
-  background-color: blue;
+  background-color: #F1C928;
   width: 100%; }
 
 #workproject3text {
-  background-color: green;
+  background-color: #3F78D8;
   width: 100%; }
 
 #workproject4text {
@@ -600,6 +606,140 @@ textarea:focus {
   font-weight: 700;
   font-size: 1.3em; }
 
+/* ANCHOR ABOUT.HTML */
+#aboutprofile {
+  height: 275px;
+  background-position: center;
+  background-size: cover; }
+
+#aboutname {
+  font-family: "Roboto", sans-serif;
+  font-size: 3.625em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  max-width: 40%; }
+
+#nameline {
+  max-width: 20%;
+  margin-top: 5px;
+  border-bottom: 5px solid #F7D806;
+  margin-right: 80%; }
+
+.aboutfact {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8125em;
+  font-weight: 300;
+  margin-bottom: 8px;
+  padding: 0; }
+
+#aboutfactlist {
+  list-style-type: none;
+  margin-left: 0; }
+
+#aboutextrainfo {
+  padding: 20px; }
+
+#cat_about {
+  min-height: 300px; }
+
+.capOverlay {
+  position: relative;
+  overflow: hidden;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.capOverlay h2 {
+  z-index: 4;
+  text-align: center; }
+
+.picCaption {
+  background-color: #F7D806;
+  height: 100%;
+  position: absolute;
+  top: 100%;
+  z-index: 9;
+  width: 100%; }
+
+#aboutbrief {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  color: #272727;
+  padding: 15px;
+  line-height: 1.45; }
+
+.categorytitle {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 2.513em;
+  color: white;
+  line-height: 300px; }
+
+#employment_overlay {
+  padding-left: 15px;
+  padding-top: 15px; }
+
+.employmentjob {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 1.4em;
+  margin: 0;
+  padding: 0;
+  color: #272727;
+  line-height: 1;
+  margin-bottom: 5px; }
+
+.employmenttitle {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 1.1em;
+  margin: 0;
+  padding: 0;
+  color: #272727;
+  line-height: 1;
+  margin-bottom: 5px; }
+
+.employmentdate {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 1.1em;
+  margin: 0;
+  padding: 0;
+  color: #272727;
+  line-height: 1;
+  margin-bottom: 30px; }
+
+.educationschool {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 1.4em;
+  margin: 0;
+  padding: 0;
+  color: #272727;
+  line-height: 1;
+  margin-bottom: 5px; }
+
+.educationprogram {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 1.1em;
+  margin: 0;
+  padding: 0;
+  color: #272727;
+  line-height: 1;
+  margin-bottom: 5px; }
+
+#westerndiv {
+  margin-bottom: 30px; }
+
+#education_overlay {
+  padding-left: 15px;
+  padding-top: 30px; }
+
 /* ANCHOR MOBILE MEDIA QUERIES */
 @media screen and (min-width: 350px) {
   #navitems li a {
@@ -619,7 +759,14 @@ textarea:focus {
     margin-top: 10px;
     font-size: 0.75em;
     margin-bottom: 20px;
-    font-weight: 700; } }
+    font-weight: 700; }
+
+  #aboutbrief {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    padding: 15px;
+    line-height: 1.45; } }
 @media screen and (min-width: 400px) {
   .projecttitle {
     font-family: 'Roboto', sans-serif;
@@ -659,7 +806,19 @@ textarea:focus {
     margin-top: 10px;
     font-size: 0.87em;
     margin-bottom: 20px;
-    font-weight: 700; } }
+    font-weight: 700; }
+
+  #aboutbrief {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    padding: 15px;
+    padding-top: 30px;
+    line-height: 1.45; }
+
+  #education_overlay {
+    padding-left: 15px;
+    padding-top: 45px; } }
 @media screen and (min-width: 460px) {
   #introtext h1 {
     font-family: "Roboto", sans-serif;
@@ -754,7 +913,18 @@ textarea:focus {
     margin-left: 15px; } }
 @media screen and (min-width: 490px) {
   #coverprofile {
-    right: 15px; } }
+    right: 15px; }
+
+  #worktitle {
+    font-size: 2.5em; } }
+@media screen and (min-width: 500px) {
+  #aboutbrief {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    padding: 15px;
+    padding-top: 30px;
+    line-height: 1.75; } }
 @media screen and (min-width: 530px) {
   .projectbutton {
     max-width: 30%; }
@@ -844,7 +1014,19 @@ textarea:focus {
   .contacticon {
     max-width: 40px;
     margin: 15px;
-    margin-bottom: 30px; } }
+    margin-bottom: 30px; }
+
+  .workprojectbutton {
+    max-width: 40%; }
+
+  #aboutprofile {
+    height: auto; }
+
+  #aboutbrief {
+    font-size: 1.3em; }
+
+  .categorytitle {
+    font-size: 3.513em; } }
 @media screen and (min-width: 750px) {
   #introtext h1 {
     font-family: "Roboto", sans-serif;
@@ -871,6 +1053,9 @@ textarea:focus {
 @media screen and (min-width: 780px) {
   #imagecover {
     padding-top: 60px; } }
+@media screen and (min-width: 790px) {
+  #aboutbrief {
+    line-height: 2.25; } }
 @media screen and (min-width: 800px) {
   .projectbutton {
     max-width: 30%; } }
@@ -896,7 +1081,10 @@ textarea:focus {
     margin-top: 60px; }
 
   #work3text {
-    margin-top: 60px; } }
+    margin-top: 60px; }
+
+  .workprojectbutton {
+    max-width: 30%; } }
 @media screen and (min-width: 950px) {
   #introtext h1 {
     font-family: "Roboto", sans-serif;
@@ -1080,7 +1268,14 @@ textarea:focus {
 
   /* CONTACT.HTML */
   #name {
-    margin-bottom: 0px; }
+    margin-bottom: 0px;
+    height: 50px; }
+
+  #email {
+    height: 50px; }
+
+  #subject {
+    height: 50px; }
 
   #contacttitle {
     font-size: 2.8em;
@@ -1100,19 +1295,109 @@ textarea:focus {
 
   /* WORK.HTML */
   #workproject1text {
-    background-color: brown;
     width: 50%; }
 
   #workproject2text {
-    background-color: blue;
     width: 50%; }
 
   #workproject3text {
-    background-color: green;
     width: 50%; }
 
   #workproject4text {
-    background-color: coral;
-    width: 50%; } }
+    width: 50%; }
+
+  .workprojecttextbox {
+    margin-top: 60px;
+    margin-left: 30px;
+    margin-bottom: 30px; }
+
+  #workproject1image {
+    height: 500px; }
+
+  #workproject2image {
+    height: 500px; }
+
+  #workproject3image {
+    height: 500px; }
+
+  #workproject4image {
+    height: 500px; }
+
+  .workprojecttextbox {
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-bottom: 30px; }
+
+  .workprojectbutton {
+    max-width: 50%; }
+
+  .workprojecttitle {
+    font-size: 2.78em; }
+
+  .workprojectli {
+    font-size: 1.1em; }
+
+  .workprojectlist {
+    list-style-type: none;
+    margin-left: 0;
+    margin-bottom: 20px;
+    margin-top: 20px; }
+
+  #worktitle {
+    font-size: 3.5em; }
+
+  #workline {
+    max-width: 10%;
+    margin-top: 5px;
+    border-bottom: 3px solid #F7D806; }
+
+  #aboutbrief {
+    line-height: 1.45;
+    font-size: 1em; }
+
+  #aboutextrainfo {
+    padding-left: 60px; }
+
+  #aboutprofile {
+    height: 500px; }
+
+  #aboutname {
+    font-size: 5.625em; }
+
+  #nameline {
+    max-width: 20%;
+    margin-top: 15px;
+    border-bottom: 10px solid #F7D806;
+    margin-right: 80%; }
+
+  .aboutfact {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2em;
+    font-weight: 300;
+    margin-bottom: 15px;
+    padding: 0; }
+
+  #aboutfactlist {
+    margin-top: 40px; }
+
+  .categorytitle {
+    font-size: 2.513em; } }
+@media screen and (min-width: 1170px) {
+  .workprojecttextbox {
+    margin-top: 150px;
+    margin-left: 140px;
+    margin-bottom: 30px; } }
+@media screen and (min-width: 1280px) {
+  #aboutbrief {
+    line-height: 1.85;
+    font-size: 1em; }
+
+  #aboutname {
+    margin-top: 20px; } }
+@media screen and (min-width: 1520px) {
+  .workprojecttextbox {
+    margin-top: 150px;
+    margin-left: 190px;
+    margin-bottom: 30px; } }
 
 /*# sourceMappingURL=main.css.map */
