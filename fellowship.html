@@ -5,13 +5,15 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nando D'Oria</title>
+    
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
   </head>
   <body>
-
+    
 
           
           <div id="top"></div>
@@ -39,19 +41,17 @@
             </div>
           </div>
 
+          <div id="app">
+
           <div id="work_background" class="grid-x full grid-container">
 
             <div class="work_introduction cell small-12 medium-12 large-6">
-                <h1 class="work_title">PROJECT TITLE</h1>
-                <p class="work_paragraph"> Created a fully responsive website for 
-                    the 20th anniversary release of the first Lord of the Rings film. 
-                    Focused on a minimal and modern flat design, highlighting the film's 
-                    yellow colour tones. Created all new logos and branding, while still 
-                    remaining true to the original film's branding and design. </p>
+                <h1 class="work_title"> {{ title }} </h1>
+                <p class="work_paragraph"> {{ description }} </p>
             </div>
 
             <div class="cell small-11 small-offset-1 medium-offset-2 medium-10 large-offset-0 large-6">
-                <img src="images/browser_mockup.jpg" alt="project screenshot" class="work_screenshot">
+                <img src="images/browser_mockup.jpg" alt="project screenshot" id="project_imageLOTR" class="work_screenshot">
             </div>
 
           </div>
@@ -60,10 +60,7 @@
           <div class="designsection grid-x align-center-middle grid-container">
                 <div class="visualdesign cell small-10 medium-10 large-7">
                     <h2 class="design_title">VISUAL DESIGN</h2>
-                    <p class="design_paragraph"> The design approach for this website was a new take on something 
-                        classic. Taking colours, type, and inspiration from the original 
-                        film and combining them together to create a sleek updated version 
-                        was the ultimate goal. </p>
+                    <p class="design_paragraph"> {{ design }} </p>
                 </div>
 
                 <div class="colors cell small-10 medium-10 large-5">
@@ -96,7 +93,7 @@
 
           
           <div class="reveal" id="fellowship_lb" data-reveal>
-                <img src="images/test-medium.jpg" alt="test">
+                <img src="" alt="test">
                 <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
                 <button class="close-button" data-close aria-label="Close modal" type="button">
                   <span aria-hidden="true">&times;</span>
@@ -140,10 +137,11 @@
 
             
 
-
+        </div>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
