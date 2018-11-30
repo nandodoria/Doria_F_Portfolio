@@ -844,6 +844,71 @@ textarea:focus
     font-size: 1.3em;
 }
 
+/* ANCHOR HADIA.HTML */
+
+#hadia_work_background
+{
+    background-color: $hadia;
+}
+
+#hadia_color1
+{
+    background-color: $hadia;
+}
+
+#hadia_color2
+{
+    background-color: $hadia;
+}
+
+#hadia_color3
+{
+    background-color: $hadia;
+}
+
+#hadia_color4
+{
+    background-color: $hadia;
+}
+
+#hadia_lb img{
+    margin-top: 10%;
+    margin-bottom: 10px;
+}
+
+
+/* ANCHOR ANGTON.HTML */
+
+#angton_work_background
+{
+    background-color: $angton;
+}
+
+#angton_color1
+{
+    background-color: $angton;
+}
+
+#angton_color2
+{
+    background-color: $angton;
+}
+
+#angton_color3
+{
+    background-color: $angton;
+}
+
+#angton_color4
+{
+    background-color: $angton;
+}
+
+#angton_lb img{
+    margin-top: 10%;
+    margin-bottom: 10px;
+}
+
 
 
 
@@ -2258,6 +2323,16 @@ textarea:focus
     }
 
     #work_background {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #hadia_work_background { 
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #angton_work_background {
         padding-top: 50px;
         padding-bottom: 50px;
     }

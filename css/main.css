@@ -606,6 +606,46 @@ textarea:focus {
   font-weight: 700;
   font-size: 1.3em; }
 
+/* ANCHOR HADIA.HTML */
+#hadia_work_background {
+  background-color: #3F78D8; }
+
+#hadia_color1 {
+  background-color: #3F78D8; }
+
+#hadia_color2 {
+  background-color: #3F78D8; }
+
+#hadia_color3 {
+  background-color: #3F78D8; }
+
+#hadia_color4 {
+  background-color: #3F78D8; }
+
+#hadia_lb img {
+  margin-top: 10%;
+  margin-bottom: 10px; }
+
+/* ANCHOR ANGTON.HTML */
+#angton_work_background {
+  background-color: #35418A; }
+
+#angton_color1 {
+  background-color: #35418A; }
+
+#angton_color2 {
+  background-color: #35418A; }
+
+#angton_color3 {
+  background-color: #35418A; }
+
+#angton_color4 {
+  background-color: #35418A; }
+
+#angton_lb img {
+  margin-top: 10%;
+  margin-bottom: 10px; }
+
 /* ANCHOR FELLOWSHIP.HTML */
 #work_background {
   background-color: #F1C928; }
@@ -1527,6 +1567,14 @@ textarea:focus {
     margin-top: 80px; }
 
   #work_background {
+    padding-top: 50px;
+    padding-bottom: 50px; }
+
+  #hadia_work_background {
+    padding-top: 50px;
+    padding-bottom: 50px; }
+
+  #angton_work_background {
     padding-top: 50px;
     padding-bottom: 50px; }
 
