@@ -12,7 +12,11 @@
             designtwo : "",
             titleangton : "",
             descriptionangton : "",
-            designangton : ""
+            designangton : "",
+            lotrimage: "",
+            largeImage:""
+
+
 
         },
 
@@ -22,8 +26,12 @@
             this.loadProject3();
         },
 
-        methods : 
-        {
+        methods : {
+
+            switchSrc(e){
+                this.largeImage = e.currentTarget.getAttribute('src').split('.')[0] + '_large.jpg';
+                debugger;
+            },
 
             loadProject1(){
                 const url = `includes/index.php?id=1`;
@@ -34,6 +42,7 @@
                     this.title = data[0].project_title;
                     this.description = data[0].project_desc;
                     this.design = data[0].design_desc;
+                    this.lotrimage =data[0].project_image;
                 })
                 .catch(function(error){
                     console.log(error);
@@ -68,7 +77,11 @@
                 .catch(function(error){
                     console.log(error);
                 })   
-            }
+            },
+
+
+
+
 
 
 

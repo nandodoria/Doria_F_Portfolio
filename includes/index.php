@@ -12,6 +12,7 @@ while ($row = $query->fetch() ) {
     $rows[] = $row;
 }
 
+
 header('Content-Type: application/json; charset=UTF-8');
 echo json_encode($rows);
 
