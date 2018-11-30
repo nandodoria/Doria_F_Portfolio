@@ -9,12 +9,17 @@
             design : "",
             titletwo : "",
             descriptiontwo : "",
-            designtwo : ""
+            designtwo : "",
+            titleangton : "",
+            descriptionangton : "",
+            designangton : ""
+
         },
 
         created : function() {
             this.loadProject1();
             this.loadProject2();
+            this.loadProject3();
         },
 
         methods : 
@@ -44,6 +49,21 @@
                     this.titletwo = data[0].project_title;
                     this.descriptiontwo = data[0].project_desc;
                     this.designtwo = data[0].design_desc;
+                })
+                .catch(function(error){
+                    console.log(error);
+                })   
+            },
+
+            loadProject3(){
+                const url = `includes/index.php?id=3`;
+
+                fetch(url)
+                .then (res => res.json())
+                .then (data => {
+                    this.titleangton = data[0].project_title;
+                    this.descriptionangton = data[0].project_desc;
+                    this.designangton = data[0].design_desc;
                 })
                 .catch(function(error){
                     console.log(error);

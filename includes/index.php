@@ -3,7 +3,6 @@
 include 'connect.php';
 
 if (isset($_GET['id'])) {
-    
     $query = $conn->prepare('SELECT * FROM tbl_portfolio WHERE id = ?');
     $query->execute([$_GET['id']]);
 }
