@@ -51,7 +51,7 @@
             </div>
 
             <div class="cell small-11 small-offset-1 medium-offset-2 medium-10 large-offset-0 large-6">
-                <img src="images/browser_hadia.png" alt="project screenshot" id="project_imagehadia" class="work_screenshot">
+                <img :src="'images/' +hadiabrowser" alt="project screenshot" id="project_imagehadia" class="work_screenshot">
             </div>
 
           </div>
@@ -94,12 +94,12 @@
 
           
           <div class="reveal" id="hadia_lb" data-reveal>
-                <img :src="largeImage" alt="project image">
+                <img :src="displaymodal" alt="project image">
                 <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
                 <button class="close-button" data-close aria-label="Close modal" type="button">
                   <span aria-hidden="true">&times;</span>
                 </button>
-            </div>
+          </div>
 
 
 

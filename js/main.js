@@ -3,7 +3,6 @@
         el: '#app',
 
         data: {
-            currentThumb : "",
             title : "",
             description : "",
             design : "",
@@ -14,7 +13,8 @@
             descriptionangton : "",
             designangton : "",
             lotrimage: "",
-            largeImage:""
+            displaymodal:"",
+            hadiabrowser: ""
 
 
 
@@ -29,8 +29,7 @@
         methods : {
 
             switchSrc(e){
-                this.largeImage = e.currentTarget.getAttribute('src').split('.')[0] + '_large.jpg';
-                debugger;
+                this.displaymodal = e.currentTarget.getAttribute('src').split('.')[0] + '_large.jpg';
             },
 
             loadProject1(){
@@ -58,6 +57,7 @@
                     this.titletwo = data[0].project_title;
                     this.descriptiontwo = data[0].project_desc;
                     this.designtwo = data[0].design_desc;
+                    this.hadiabrowser = data[0].project_image;
                 })
                 .catch(function(error){
                     console.log(error);
