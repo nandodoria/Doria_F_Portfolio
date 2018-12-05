@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
   </head>
   <body>
@@ -46,12 +47,12 @@
           <div id="work_background" class="grid-x full grid-container">
 
             <div class="work_introduction cell small-12 medium-12 large-6">
-                <h1 class="work_title"> {{ title }} </h1>
-                <p class="work_paragraph"> {{ description }} </p>
+                <h1 class="work_title" id="lotrtitle"> {{ title }} </h1>
+                <p class="work_paragraph" id="lotrdesc"> {{ description }} </p>
             </div>
 
             <div class="cell small-11 small-offset-1 medium-offset-2 medium-10 large-offset-0 large-6">
-                <img :src="'images/' +lotrimage" alt="project screenshot" id="project_imageLOTR" class="work_screenshot">
+                <img :src="'images/' +lotrimage" alt="project screenshot" id="project_imageLOTR" class="work_screenshot wow slideInRight">
             </div>
 
           </div>
@@ -65,10 +66,10 @@
 
                 <div class="colors cell small-10 medium-10 large-5">
                     <div class="circles">
-                    <div class="design_color" id="fellowship_color1"></div>
-                    <div class="design_color" id="fellowship_color2"></div>
-                    <div class="design_color" id="fellowship_color3"></div>
-                    <div class="design_color" id="fellowship_color4"></div>
+                    <div class="design_color wow fadeInUp" id="fellowship_color1"></div>
+                    <div class="design_color wow fadeInUp" id="fellowship_color2"></div>
+                    <div class="design_color wow fadeInUp" id="fellowship_color3"></div>
+                    <div class="design_color wow fadeInUp" id="fellowship_color4"></div>
                     </div>
                 </div>
           </div>
@@ -83,12 +84,12 @@
           <div class=" gallerybox grid-container align-center-middle">
             <div class="grid-x grid-margin-x grid-padding-y align-center-middle grid-container">
                     <h3 class=" gallerytitle cell small-12"> THE FINAL PRODUCT </h3>
-                    <div class="cell small-12 medium-4 large-4"><img data-open="fellowship_lb" src="images/test-medium.jpg" alt="test"></div>
-                    <div class="cell small-12 medium-4 large-4"><img data-open="fellowship_lb" src="images/test-medium.jpg" alt="test"></div>
-                    <div class="cell small-12 medium-4 large-4"><img data-open="fellowship_lb" src="images/test-medium.jpg" alt="test"></div>
-                    <div class="cell small-12 medium-4 large-4"><img data-open="fellowship_lb" src="images/test-medium.jpg" alt="test"></div>
-                    <div class="cell small-12 medium-4 large-4"><img data-open="fellowship_lb" src="images/test-medium.jpg" alt="test"></div>
-                    <div class="cell small-12 medium-4 large-4"><img data-open="fellowship_lb" src="images/test-medium.jpg" alt="test"></div>
+                    <div class="cell small-12 medium-4 large-4 wow slideInLeft"><img data-open="fellowship_lb" src="images/test-medium.jpg" alt="test"></div>
+                    <div class="cell small-12 medium-4 large-4 wow slideInLeft"><img data-open="fellowship_lb" src="images/test-medium.jpg" alt="test"></div>
+                    <div class="cell small-12 medium-4 large-4 wow slideInLeft"><img data-open="fellowship_lb" src="images/test-medium.jpg" alt="test"></div>
+                    <div class="cell small-12 medium-4 large-4 wow slideInRight"><img data-open="fellowship_lb" src="images/test-medium.jpg" alt="test"></div>
+                    <div class="cell small-12 medium-4 large-4 wow slideInRight"><img data-open="fellowship_lb" src="images/test-medium.jpg" alt="test"></div>
+                    <div class="cell small-12 medium-4 large-4 wow slideInRight"><img data-open="fellowship_lb" src="images/test-medium.jpg" alt="test"></div>
             </div>
           </div>
 
@@ -120,10 +121,10 @@
 
 
             <div id="socialicons" class="cell small-8">
-              <a href="#"><img src="images/twitter.svg" alt="twitter" class="footericon"></a>
-              <a href="#"><img src="images/instagram.svg" alt="instagram" class="footericon"></a>
-              <a href="#"><img src="images/behance.svg" alt="behance" class="footericon"></a>
-              <a href="#"><img src="images/github.svg" alt="github" class="footericon"></a>
+              <a href="https://twitter.com/nandodoriaa" target="_blank"><img src="images/twitter.svg" alt="twitter" class="footericon"></a>
+              <a href="https://www.instagram.com/nando.doria/" target="_blank"><img src="images/instagram.svg" alt="instagram" class="footericon"></a>
+              <a href="https://www.behance.net/nandodoria3990" target="_blank"><img src="images/behance.svg" alt="behance" class="footericon"></a>
+              <a href="https://github.com/nandodoria" target="_blank"><img src="images/github.svg" alt="github" class="footericon"></a>
             </div>
 
           </div>
@@ -143,6 +144,10 @@
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
     <script src="js/main.js"></script>
   </body>
 </html>
