@@ -956,7 +956,7 @@ textarea:focus
     font-size: 1.75em;
     text-align: center;
     line-height: 1;
-    color: $nandoblack;
+    color: white;
 }
 
 .work_paragraph
@@ -969,6 +969,17 @@ textarea:focus
     color: white;
     text-align: center;
 }
+
+#lotrtitle
+{
+    color: $nandoblack;
+}
+
+#lotrdesc
+{
+    color: $nandoblack;
+}
+
 
 .work_introduction
 {
@@ -1108,6 +1119,26 @@ textarea:focus
     max-width: 40%;
 }
 
+
+#sectiondivide {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border-bottom: 10px solid $nandoyellow;
+    max-width: 100%;
+}
+
+#resumedownload
+{
+    color: #272727;
+}
+
+#resumedownload:hover
+{
+    color: $nandoyellow;
+    transition: all 0.3s ease;
+}
+
 #nameline
 {
     max-width: 20%;
@@ -1162,7 +1193,7 @@ textarea:focus
 
 .picCaption
 {
-    background-color: $nandoyellow;
+    background-color: rgba(247, 216, 6, 0.9);
     height: 100%;
     position: absolute;
     top:100%;

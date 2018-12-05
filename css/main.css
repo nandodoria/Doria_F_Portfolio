@@ -679,7 +679,7 @@ textarea:focus {
   font-size: 1.75em;
   text-align: center;
   line-height: 1;
-  color: #272727; }
+  color: white; }
 
 .work_paragraph {
   padding: 10px;
@@ -689,6 +689,12 @@ textarea:focus {
   line-height: normal;
   color: white;
   text-align: center; }
+
+#lotrtitle {
+  color: #272727; }
+
+#lotrdesc {
+  color: #272727; }
 
 .work_introduction {
   margin-top: 20px;
@@ -787,6 +793,20 @@ textarea:focus {
   line-height: 1;
   max-width: 40%; }
 
+#sectiondivide {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  border-bottom: 10px solid #F7D806;
+  max-width: 100%; }
+
+#resumedownload {
+  color: #272727; }
+
+#resumedownload:hover {
+  color: #F7D806;
+  transition: all 0.3s ease; }
+
 #nameline {
   max-width: 20%;
   margin-top: 5px;
@@ -823,7 +843,7 @@ textarea:focus {
   text-align: center; }
 
 .picCaption {
-  background-color: #F7D806;
+  background-color: rgba(247, 216, 6, 0.9);
   height: 100%;
   position: absolute;
   top: 100%;
