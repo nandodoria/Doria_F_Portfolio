@@ -45,7 +45,8 @@ body {
 .menu-icon:hover::after {
   background: white;
   -webkit-box-shadow: 0 7px 0 white, 0 14px 0 white;
-  box-shadow: 0 10px 0 white, 0 20px 0 white; }
+  box-shadow: 0 10px 0 white, 0 20px 0 white;
+  transition: all 0.3s ease; }
 
 #nav-menu {
   background-color: #F7D806; }
@@ -65,7 +66,8 @@ body {
   font-size: 0.8em; }
 
 #navitems li a:hover {
-  color: white; }
+  color: white;
+  transition: all 0.3s ease; }
 
 /* ANCHOR INTRO INDEX */
 #slantedintro {
@@ -260,7 +262,8 @@ body {
   background-color: #F7D806;
   border-color: #F7D806;
   color: white;
-  cursor: pointer; }
+  cursor: pointer;
+  transition: all 0.3s ease; }
 
 #project2 {
   margin-top: 30px;
@@ -283,7 +286,8 @@ body {
   background-color: #F7D806;
   border-color: #F7D806;
   color: white;
-  cursor: pointer; }
+  cursor: pointer;
+  transition: all 0.3s ease; }
 
 #workbutton p {
   margin: 0;
@@ -349,7 +353,8 @@ body {
 #contactbutton:hover {
   background-color: white;
   color: #F7D806;
-  cursor: pointer; }
+  cursor: pointer;
+  transition: all 0.3s ease; }
 
 /* ANCHOR FOOTER */
 #footersection {
@@ -361,7 +366,8 @@ body {
 
 #footerlogo:hover {
   opacity: 0.5;
-  cursor: pointer; }
+  cursor: pointer;
+  transition: all 0.3s ease; }
 
 #socialicons {
   text-align: center;
@@ -373,7 +379,8 @@ body {
 
 .footericon:hover {
   opacity: 0.5;
-  cursor: pointer; }
+  cursor: pointer;
+  transition: all 0.3s ease; }
 
 /* ANCHOR CONTACT.HTML */
 #contactsend {
@@ -392,7 +399,8 @@ body {
 #contactsend:hover {
   background-color: #F7D806;
   color: white;
-  cursor: pointer; }
+  cursor: pointer;
+  transition: all 0.3s ease; }
 
 #contactback {
   background-color: #272727; }
@@ -484,6 +492,11 @@ textarea:focus {
   max-width: 30px;
   margin: 10px;
   margin-bottom: 20px; }
+
+.contacticon:hover {
+  opacity: 0.8;
+  transition: all 0.3s ease;
+  cursor: pointer; }
 
 #socialtext {
   text-align: center;
@@ -601,7 +614,8 @@ textarea:focus {
 .workprojectbutton:hover {
   cursor: pointer;
   background-color: #37393B;
-  border-color: #37393B; }
+  border-color: #37393B;
+  transition: all 0.3s ease; }
 
 .workprojectbutton p {
   margin-bottom: 0;
@@ -617,13 +631,13 @@ textarea:focus {
   background-color: #3F78D8; }
 
 #hadia_color2 {
-  background-color: #3F78D8; }
+  background-color: #2e7ec3; }
 
 #hadia_color3 {
-  background-color: #3F78D8; }
+  background-color: #6cabe0; }
 
 #hadia_color4 {
-  background-color: #3F78D8; }
+  background-color: #000000; }
 
 #hadia_lb img {
   margin-top: 10%;
@@ -640,13 +654,13 @@ textarea:focus {
   background-color: #004076; }
 
 #angton_color2 {
-  background-color: #004076; }
+  background-color: #F2B318; }
 
 #angton_color3 {
-  background-color: #004076; }
+  background-color: #f1f1f1; }
 
 #angton_color4 {
-  background-color: #004076; }
+  background-color: #272727; }
 
 #angton_lb img {
   margin-top: 10%;

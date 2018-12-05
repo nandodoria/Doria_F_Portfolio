@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
   </head>
   <body>
@@ -45,13 +46,13 @@
           <!-- SLANTED DIV START-->
           <div id="slantedintro">
             <div id="intropromodiv" class="grid-x align-center-middle grid-container"> 
-              <div id="imagecover" class="cell small-11 medium-7 large-10">
+              <div id="imagecover" class=" cell small-11 medium-7 large-10">
 
                   <img data-interchange="[images/intronandosmall.png, small], [images/intronandomedium.png, medium], [images/intronandolarge.png, large]" alt="Nando DOria Profile" id="coverprofile">
                 <div id="whiteborder" class="cell small-11 medium-7 large-10">
                   <div id="introtext">
                     <h1> NANDO </h1> <h1>DORIA</h1>
-                    <p> DESIGNER &amp DEVELOPER </p>
+                    <p class="wow slideInRight" data-wow-delay="0.2s"> DESIGNER &amp DEVELOPER </p>
                   </div>
                   <div id="introphoto">
                   <img data-interchange="[images/intronandosmall.png, small], [images/intronandomedium.png, medium], [images/intronandolarge.png, large]" alt="Nando DOria Profile">
@@ -76,22 +77,22 @@
           </div>
           <div id="abouticoncenter">
           <div id="abouticons" class="cell small-12 medium-10 large-10">
-          <div class="abouticon">
+          <div class="abouticon wow fadeInUp">
           <img src="images/vector.svg" alt="icon">
           <p>DESIGN</p>
           </div>
 
-          <div class="abouticon">
+          <div class="abouticon wow fadeInUp">
           <img src="images/code.svg" alt="icon">
           <p>CODING</p>
           </div>
 
-          <div class="abouticon">
+          <div class="abouticon wow fadeInUp">
           <img src="images/motion.svg" alt="icon">
           <p>MOTION</p>
           </div>
               
-          <div class="abouticon">
+          <div class="abouticon wow fadeInUp">
           <img src="images/ui.svg" alt="icon">
           <p>UI/UX</p>
           </div>
@@ -107,7 +108,7 @@
             <h2 id="workheader" class="hide-for-small-only"> WORK </h2>
             <div id="project1" class="grid-x  grid-container full">
             
-              <div id="laptopwork1" class="cell small-11 small-offset-1 small-order-1 medium-6 medium-offset-0 medium-order-2 large-7">
+              <div id="laptopwork1" class=" wow slideInRight cell small-11 small-offset-1 small-order-1 medium-6 medium-offset-0 medium-order-2 large-7">
                 <img src="images/angton_macbook_large.png" id="laptop1image">
               </div>
               
@@ -123,7 +124,7 @@
 
             <div id="project2" class="grid-x  grid-container full">
             
-                <div id="laptopwork2" class="cell small-11 small-offset-1 small-order-1 medium-6 medium-offset-0 medium-order-2 large-7">
+                <div id="laptopwork2" class=" wow slideInRight cell small-11 small-offset-1 small-order-1 medium-6 medium-offset-0 medium-order-2 large-7">
                   <img src="images/lotr_macbook_large.png" id="laptop1image">
                 </div>
                 
@@ -139,7 +140,7 @@
 
             <div id="project3" class="grid-x grid-container full">
             
-                  <div id="laptopwork3" class="cell small-11 small-offset-1 small-order-1 medium-6 medium-offset-0 medium-order-2 large-7">
+                  <div id="laptopwork3" class=" wow slideInRight cell small-11 small-offset-1 small-order-1 medium-6 medium-offset-0 medium-order-2 large-7">
                     <img src="images/hadia_mag-large.png" id="laptop1image">
                   </div>
                   
@@ -218,6 +219,10 @@
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
     <script src="js/main.js"></script>
   </body>
 </html>

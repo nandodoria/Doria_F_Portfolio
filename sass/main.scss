@@ -60,6 +60,7 @@ body
     background: rgb(255, 255, 255);
     -webkit-box-shadow: 0 7px 0 rgb(255, 255, 255), 0 14px 0 rgb(255, 255, 255);
     box-shadow: 0 10px 0 rgb(255, 255, 255), 0 20px 0 rgb(255, 255, 255);
+    transition: all 0.3s ease;
 }
 
 #nav-menu
@@ -90,6 +91,7 @@ body
 #navitems li a:hover
 {
     color: white;
+    transition: all 0.3s ease;
 }
 
 
@@ -367,6 +369,7 @@ body
     border-color: $nandoyellow;
     color: white;
     cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 #project2
@@ -396,6 +399,7 @@ body
     border-color: $nandoyellow;
     color: white;
     cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 #workbutton p
@@ -484,6 +488,7 @@ body
     background-color: white;
     color: $nandoyellow;
     cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 
@@ -507,6 +512,7 @@ body
 {
     opacity: 0.5;
     cursor: pointer;
+    transition: all 0.3s ease;
 
 }
 
@@ -526,6 +532,7 @@ body
 {
     opacity: 0.5;
     cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 
@@ -554,6 +561,7 @@ body
     background-color: $nandoyellow;
     color: white;
     cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 #contactback
@@ -678,6 +686,13 @@ textarea:focus
     margin-bottom: 20px;
 }
 
+.contacticon:hover
+{
+    opacity: 0.8;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
 
 #socialtext
 {
@@ -727,6 +742,7 @@ textarea:focus
      background-size: cover;
     background-position:center;
  }
+
 
  #titlesection
  {
@@ -836,6 +852,7 @@ textarea:focus
     cursor: pointer;
     background-color: $contactgrey;
     border-color: $contactgrey;
+    transition: all 0.3s ease;
 }
 
 .workprojectbutton p
@@ -860,17 +877,17 @@ textarea:focus
 
 #hadia_color2
 {
-    background-color: $hadia;
+    background-color: #2e7ec3;
 }
 
 #hadia_color3
 {
-    background-color: $hadia;
+    background-color: #6cabe0;
 }
 
 #hadia_color4
 {
-    background-color: $hadia;
+    background-color: #000000;
 }
 
 #hadia_lb img{
@@ -898,17 +915,17 @@ textarea:focus
 
 #angton_color2
 {
-    background-color: $angton;
+    background-color: #F2B318;
 }
 
 #angton_color3
 {
-    background-color: $angton;
+    background-color: #f1f1f1;
 }
 
 #angton_color4
 {
-    background-color: $angton;
+    background-color: #272727;
 }
 
 #angton_lb img{
