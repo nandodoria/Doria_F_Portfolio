@@ -51,14 +51,15 @@
 
           <div id="projectslist">
             <div id="workproject1" class="grid-x full grid-container">
-                <div id="workproject1image" class="cell small-12 medium-12 large-6 large-order-2" >
+                <div id="workproject1image" class="cell small-12 medium-12 large-6 large-order-2" 
+                data-interchange="[images/angtonintro-small.jpg, small], [images/angtonintro-medium.jpg, medium], [images/angtonintro-medium.jpg, large]">
                 </div>
                 <div class="workprojecttextleft" id="workproject1text" class="cell full small-12 medium-12 large-6 large-order-1">
                     <div class="workprojecttextbox">
-                    <h2 class="workprojecttitle"> ANGTON ELECTRIC </h2>
+                    <h2 class="workprojecttitle"> {{ titleangton }} </h2>
                     <ul class="workprojectlist">
-                        <li class="workprojectli"> UX/UI DESIGN </li>
-                        <li class="workprojectli"> RESPONSIVE DESIGN </li>
+                        <li class="workprojectli"> {{ angtonaspectone }} </li>
+                        <li class="workprojectli"> {{ angtonaspecttwo }} </li>
                     </ul>
                     <a href="angton.html"><div class="workprojectbutton"><p> VIEW PROJECT </p></div></a>
                     </div>
@@ -71,11 +72,11 @@
                     </div>
                     <div class="workprojecttextleft" id="workproject2text" class="cell full small-12 medium-12 large-6">
                         <div class="workprojecttextbox">
-                        <h2 class="workprojecttitle"> FELLOWSHIP OF THE RING </h2>
+                        <h2 class="workprojecttitle"> {{ title }} </h2>
                         <ul class="workprojectlist">
-                            <li class="workprojectli">BRANDING</li>
-                            <li class="workprojectli">UX/UI DESIGN</li>
-                            <li class="workprojectli">RESPONSIVE WEBSITE</li>
+                            <li class="workprojectli">{{ aspectone }}</li>
+                            <li class="workprojectli">{{ aspecttwo }}</li>
+                            <li class="workprojectli">{{ aspectthree }}</li>
                         </ul>
                         <a href="fellowship.html"><div class="workprojectbutton"><p> VIEW PROJECT </p></div></a>
                         </div>
@@ -88,11 +89,11 @@
                     </div>
                     <div class="workprojecttextleft" id="workproject3text" class="cell full small-12 medium-12 large-6 large-order-1">
                         <div class="workprojecttextbox">
-                        <h2 class="workprojecttitle"> HADIA FIAZ </h2>
+                        <h2 class="workprojecttitle"> {{ titletwo }} </h2>
                         <ul class="workprojectlist">
-                            <li class="workprojectli">BRANDING</li>
-                            <li class="workprojectli">LOGO DESIGN</li>
-                            <li class="workprojectli">PRINT DESIGN</li>
+                            <li class="workprojectli">{{ hadiaaspectone }}</li>
+                            <li class="workprojectli">{{ hadiaaspectone }}</li>
+                            <li class="workprojectli">{{ hadiaaspectone }}</li>
                         </ul>
                         <a href="hadia.html"><div class="workprojectbutton"><p> VIEW PROJECT </p></div></a>
                         </div>
@@ -102,19 +103,28 @@
             
             
             <div id="workproject4" class="grid-x full grid-container">
-                    <div id="workproject4image" class="cell small-12 medium-12 large-6">
+                    <div id="workproject4image" class="cell small-12 medium-12 large-6"
+                    data-interchange="[images/reelintro-small.jpg, small], [images/reelintro-medium.jpg, medium], [images/reelintro-medium.jpg, large]">
                     </div>
                     <div class="workprojecttextleft" id="workproject4text" class="cell full small-12 medium-12 large-6">
                         <div class="workprojecttextbox">
-                        <h2 class="workprojecttitle"> DEMO REEL </h2>
+                        <h2 class="workprojecttitle"> {{ titlereel }} </h2>
                         <ul class="workprojectlist">
-                            <li class="workprojectli">MOTION</li>
-                            <li class="workprojectli">CINEMA 4D</li>
-                            <li class="workprojectli">AFTER EFFECTS</li>
+                            <li class="workprojectli">{{ reelaspectone }}</li>
+                            <li class="workprojectli">{{ reelaspectone }}</li>
+                            <li class="workprojectli">{{ reelaspectone }}</li>
                         </ul>
-                        <div class="workprojectbutton"><p> VIEW PROJECT </p></div>
+                        <div class="workprojectbutton" data-toggle="exampleModal8"><p> VIEW PROJECT </p></div>
                         </div>
                     </div>
+            </div>
+
+            <div class="full reveal" id="exampleModal8" data-reveal>
+              <p>OH I'M SO FUUUUL</p>
+              <img src="https://placekitten.com/1920/1280" alt="Introspective Cage">
+              <button class="close-button" data-close aria-label="Close reveal" type="button">
+                <span aria-hidden="true">&times;</span>
+              </button>
             </div>
 
           </div>

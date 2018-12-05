@@ -179,6 +179,8 @@ body
     bottom: 6px;
     right: 8px;
     z-index: 45;
+    -webkit-filter: grayscale(95%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(95%);
 }
 
 
@@ -773,7 +775,7 @@ textarea:focus
 
 #workproject4text
 {
-    background-color:coral;
+    background-color: $nandoyellow;
     width: 100%;
 }
 
@@ -1528,6 +1530,8 @@ textarea:focus
     {
         right: 15px;
     }
+
+
 
     #worktitle {
         font-size: 2.5em;

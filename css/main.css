@@ -126,7 +126,10 @@ body {
   position: absolute;
   bottom: 6px;
   right: 8px;
-  z-index: 45; }
+  z-index: 45;
+  -webkit-filter: grayscale(95%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(95%); }
 
 /* ANCHOR ABOUT INDEX */
 #aboutsection {
@@ -538,7 +541,7 @@ textarea:focus {
   padding-top: 10px; }
 
 #workproject1text {
-  background-color: #35418A;
+  background-color: #004076;
   width: 100%; }
 
 #workproject2text {
@@ -550,7 +553,7 @@ textarea:focus {
   width: 100%; }
 
 #workproject4text {
-  background-color: coral;
+  background-color: #F7D806;
   width: 100%; }
 
 .workprojecttextbox {
@@ -631,19 +634,19 @@ textarea:focus {
 
 /* ANCHOR ANGTON.HTML */
 #angton_work_background {
-  background-color: #35418A; }
+  background-color: #004076; }
 
 #angton_color1 {
-  background-color: #35418A; }
+  background-color: #004076; }
 
 #angton_color2 {
-  background-color: #35418A; }
+  background-color: #004076; }
 
 #angton_color3 {
-  background-color: #35418A; }
+  background-color: #004076; }
 
 #angton_color4 {
-  background-color: #35418A; }
+  background-color: #004076; }
 
 #angton_lb img {
   margin-top: 10%;
