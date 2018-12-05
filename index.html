@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
   </head>
   <body>
 <div class="grid-container full" >
@@ -37,6 +38,8 @@
                   <!-- mobile and desktop navigation ends-->
             </div>
           </div>
+
+          <div id="app">
 
 
           <!-- SLANTED DIV START-->
@@ -67,9 +70,7 @@
           
           <div id="abouttext" class="cell small-10 medium-8 large-8">
           <h2 id="aboutheader" class="hide-for-small-only"> ABOUT </h2>
-          <p id="aboutparagraph"> Hi, I'm Nando DOria, a London Ontario designer and developer. 
-          I'm 21 years old and currently going to school at Fanshawe and Western. 
-          I enjoy creating unique and innovative websites and creative designs.     <a href="about.html" id="linktext"> LEARN MORE </a></p>
+          <p id="aboutparagraph"> {{indexabout}}     <a href="about.html" id="linktext"> LEARN MORE </a></p>
           </div>
 
           </div>
@@ -114,7 +115,7 @@
                 <h3 class="projecttitle">{{ titleangton }}</h3>
                 <p class="projecttagline">{{ taglineangton}}</p>
                 <hr class="workpreviewline">
-                <p class="projectdesc">{{ descriptionangton }}</p>
+                <p class="projectdesc">{{ descriptionangtonshort }}</p>
                 <a href="angton.html"><div class="projectbutton"> <p>CHECK IT OUT</p> </div></a>
               </div>
 
@@ -130,7 +131,7 @@
                   <h3 class="projecttitle">{{ title }}</h3>
                   <p class="projecttagline">{{ tagline }}</p>
                   <hr class="workpreviewline">
-                  <p class="projectdesc">{{ description }}</p>
+                  <p class="projectdesc">{{ descriptionshort }}</p>
                   <a href="fellowship.html"><div class="projectbutton"> <p>CHECK IT OUT</p> </div></a>
                 </div>
   
@@ -146,7 +147,7 @@
                     <h3 class="projecttitle">{{ titletwo }}</h3>
                     <p class="projecttagline">{{ taglinetwo }}</p>
                     <hr class="workpreviewline">
-                    <p class="projectdesc">{{ descriptiontwo }}</p>
+                    <p class="projectdesc">{{ descriptiontwoshort }}</p>
                     <a href="hadia.html"><div class="projectbutton"> <p>CHECK IT OUT</p> </div></a>
                   </div>
     
@@ -208,7 +209,7 @@
           </div>    
           <!--footer/page end-->
 
-
+</div>
             
  </div> <!-- END OF MAIN CONTAINER FULL-->
 
