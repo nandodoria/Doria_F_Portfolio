@@ -180,12 +180,25 @@
     var cat3 = document.querySelector("#cat_education");
     var info3 = document.querySelector("#education_overlay");
     var hadia_lb = document.querySelector("#hadia_lb")
+    var angton_lb = document.querySelector("#angton_lb")
+    var lotr_lb = document.querySelector("#lotr_lb")
 
     if(hadia_lb){
     const imageInstance = basicLightbox.create(document.querySelector('#hadia_lb'));
     //document.querySelectorAll(".hadiaopen").onclick = imageInstance.show
     document.querySelectorAll(".hadiaopen").forEach(item => item.onclick = imageInstance.show);
     }
+
+    if(angton_lb){
+    const imageInstance2 = basicLightbox.create(document.querySelector('#angton_lb'));
+    document.querySelectorAll(".angtonopen").forEach(item => item.onclick = imageInstance2.show);
+    }
+
+    if(lotr_lb){
+    const imageInstance3 = basicLightbox.create(document.querySelector('#lotr_lb'));
+    document.querySelectorAll(".lotropen").forEach(item => item.onclick = imageInstance3.show);
+    }
+
 
 
 
