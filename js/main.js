@@ -21,8 +21,6 @@
             hadiaaspecttwo : "",
             hadiaaspectthree : "",
 
-            hadiamodaltwo : "",
-            hadiamodaldesctwo: "",
 
             titleangton : "",
             taglineangton : "",
@@ -48,7 +46,9 @@
 
             displaymodal:"",
 
-            hadiabrowser: ""
+            hadiabrowser: "",
+
+            angtonbrowser: ""
 
 
 
@@ -104,9 +104,6 @@
                     this.hadiaaspectone = data[0].project_aspect_one;
                     this.hadiaaspecttwo = data[0].project_aspect_two;
                     this.hadiaaspectthree = data[0].project_aspect_three;
-
-                    this.hadiamodaltwo = data[0].project_photo_two;
-                    this.hadiamodaldesctwo = data[0].project_photodesc_two;
                 })
                 .catch(function(error){
                     console.log(error);
@@ -121,6 +118,7 @@
                 .then (data => {
                     this.titleangton = data[0].project_title;
                     this.taglineangton = data[0].project_tagline;
+                    this.angtonbrowser = data[0].project_image;
                     this.descriptionangton = data[0].project_desc;
                     this.designangton = data[0].design_desc;
                     this.descriptionangtonshort = data[0].project_desc_short;
