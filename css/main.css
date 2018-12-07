@@ -646,6 +646,11 @@ textarea:focus {
 #hadia_lb {
   text-align: center; }
 
+.hadiaopen:hover {
+  filter: grayscale(1);
+  transition: all 0.3s ease;
+  cursor: pointer; }
+
 /* ANCHOR ANGTON.HTML */
 #angton_work_background {
   background-color: #004076; }
@@ -657,7 +662,7 @@ textarea:focus {
   background-color: #F2B318; }
 
 #angton_color3 {
-  background-color: #f1f1f1; }
+  background-color: lightgray; }
 
 #angton_color4 {
   background-color: #272727; }
@@ -669,9 +674,19 @@ textarea:focus {
 #angton_lb {
   text-align: center; }
 
+.angtonopen:hover {
+  filter: grayscale(1);
+  transition: all 0.3s ease;
+  cursor: pointer; }
+
 /* ANCHOR FELLOWSHIP.HTML */
 #work_background {
   background-color: #F1C928; }
+
+.lotropen:hover {
+  filter: grayscale(1);
+  transition: all 0.3s ease;
+  cursor: pointer; }
 
 .work_title {
   font-family: "Roboto", sans-serif;
