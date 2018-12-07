@@ -1,30 +1,29 @@
-<?php 
-
+<?php
 
 function send_email(){
 
-    //Email Validations : checking required fields
+if(empty($_POST['name'])
+   || empty($_POST['email'])
+   || empty($_POST['message'])){
 
-    if(empty($_POST['name'])
-        || empty($_POST['email'])
-        || empty($_POST['message'])){
+        echo 'You are missing some required fields';
+        exit;
+    }
 
-            echo 'You are missing some required fields';
-            exit;
-        }
+$to = "me@nandodoria.ca";
+$name = $_POST['name'];
+$email = $_POST['email'];
+$subject = $_POST['subject'];
+$message = $_POST['message'];
+$formcontent = "From: $name \n Subject: $subject \n Message: $message";
+$subject = "Portfolio Contact Form";
+$mailheader = "From: $email \r\n";
 
-    $to = 'me@nandodoria.ca';
-    $name = 'This is an email from '.$_POST['name'];
-    $subject = 'Subject: '.$_POST['subject'];
-    $message = 'Message Body: '.$_POST['message'];
-    $headers = 'From: noreply@nandodoria.ca ';
-    $headers .= 'Reply-To: ' .$POST['email'];
+mail($to, $subject, $formcontent, $mailheader);
 
-    mail($to, $name, $subject, $message, $headers);
-    //IN your server use the following line instead
-    //mail($to, $subject, $message, $headers);
+header('Location: contact_complete.html');
+exit;
 }
 
 send_email();
-
 ?>
