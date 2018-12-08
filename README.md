@@ -1,14 +1,14 @@
 # Nando D'Oria Portfolio
 This is the working and personal porfolio site for designer and developer, Nando DOria.
 
-[Visit the live site] (http://nandodoria.ca/)
+[Visit the live site](http://nandodoria.ca/)
 
 
 ## Built with
 * [Zurb Foundation](https://foundation.zurb.com/) - Foundation Framework
 
 ## Authors
-* **Fernando D'Oria** (https://github.com/nandodoria) -
+* **Fernando D'Oria**(https://github.com/nandodoria) -
 
 ### Installing
 
