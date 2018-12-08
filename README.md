@@ -1,33 +1,29 @@
 # Nando D'Oria Portfolio
-This is the working and personal porfolio site for designer and developer, Nando D'Oria.
+This is the working and personal porfolio site for designer and developer, Nando DOria.
+
+[Visit the live site] (http://nandodoria.ca/)
+
 
 ## Built with
-* [Bootstrap](https://getbootstrap.com/) - Bootstrap Framework
+* [Zurb Foundation](https://foundation.zurb.com/) - Foundation Framework
 
 ## Authors
 * **Fernando D'Oria** (https://github.com/nandodoria) -
 
+### Installing
 
-## Progress
-* 10/25 - created repository
-
-
-## Installing
-
-Open Terminal or Command Line
-
+```bash
+git clone https://github.com/nandodoria/Doria_F_Portfolio
 ```
-# Pick the location of where this repository will be downloaded, for example purposes this will be on your desktop
 
-$ cd Desktop
+Open the folder in your command line, and install the needed dependencies:
 
-# Clone this repository into your local machine
+```bash
+cd Doria_F_Portfolio
+npm install
+```
 
-$ git clone https://github.com/nandodoria/Doria_F_Portfolio.git
-
-# Go into the repository
-
-$ cd Doria_F_Portfolio
+Finally, run `npm start` to run the Sass compiler. The site will not show properly unless these steps are followed. In development mode, the portfolio needs to be run on a live server (MAMP/WAMP) in order for the database and json to work.
 
 ```
 
