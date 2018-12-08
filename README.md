@@ -5,7 +5,13 @@ This is the working and personal porfolio site for designer and developer, Nando
 
 
 ## Built with
-* [Zurb Foundation](https://foundation.zurb.com/) - Foundation Framework
+- [Zurb Foundation 6](https://foundation.zurb.com/) - Responsive Framework
+- [vue.js](https://vue.com) - Fetching content from database
+- [basiclightbox](https://basiclightbox.electerious.com/) - Clean lightbox effect
+- [wow.JS](https://mynameismatthieu.com/WOW/) - Animating elements on scroll
+- [animate.css](https://daneden.github.io/animate.css/) - Animating styles and movements
+- [SASS](https://sass-lang.com/) - Creating values to use in css
+- [npm](https://www.npmjs.com/) - Compile and install packages
 
 
 ### Installing
