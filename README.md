@@ -1,4 +1,4 @@
-# Nando D'Oria Portfolio
+# Nando DOria Portfolio
 This is the working and personal porfolio site for designer and developer, Nando DOria.
 
 [Visit the live site](http://nandodoria.ca/)
@@ -7,8 +7,6 @@ This is the working and personal porfolio site for designer and developer, Nando
 ## Built with
 * [Zurb Foundation](https://foundation.zurb.com/) - Foundation Framework
 
-## Authors
-* **Fernando D'Oria**(https://github.com/nandodoria) -
 
 ### Installing
 
@@ -26,6 +24,9 @@ npm install
 Finally, run `npm start` to run the Sass compiler. The site will not show properly unless these steps are followed. In development mode, the portfolio needs to be run on a live server (MAMP/WAMP) in order for the database and json to work.
 
 ```
+
+## Authors
+* **Fernando D'Oria** (https://github.com/nandodoria)
 
 ## Resources
 * I made a [Pinterest board](https://pin.it/q44twnmglba3g2) for design inspiration
